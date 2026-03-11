@@ -1,0 +1,157 @@
+RESET = '\033[0m'
+BOLD = '\033[1m'
+GREEN = '\033[92m'
+RED = '\033[91m'
+IMEI = "d55501db-ab29-4767-a466-d6354168e632-3c9fc7ddec9b58823c1c96756dbd45d8"
+SESSION_COOKIES = {"_ga":"GA1.1.1974198409.1764571759","_ga_YS1V643LGV":"GS2.1.s1764851571$o3$g0$t1764851571$j60$l0$h0","_zlang":"vn","zpsid":"wEr_.334114269.30.32XMPQUY-kXwZn3xgwBwwDBHYDkKbilPav3CqOtMQ9bV44Yyfj5KHywY-kW","zpw_sek":"a_Ti.334114269.a0.jIjO3e4ut6vS5JPze3ZSRleQkGMZ0lvRwHE_0yPhbbpsKuycwKwE6yXMlKNs1U5C_1Ae_F30RjpLEQ_0Bb7SRW","__zi":"3000.SSZzejyD6zOgdh2mtnLQWYQN_RAG01ICFjIXe9fEM8yzdUoYdKXVXtMUxQtLIro7TfhXgp8u.1","__zi-legacy":"3000.SSZzejyD6zOgdh2mtnLQWYQN_RAG01ICFjIXe9fEM8yzdUoYdKXVXtMUxQtLIro7TfhXgp8u.1","app.event.zalo.me":"7020112309275828453"}
+API_KEY = 'api_key'
+SECRET_KEY = 'secret_key'
+PREFIX = ""
+ADMIN = {
+ '1581441781584833815',
+ '3299675674241805615',
+ '5182415640462386702',
+ '5777608060261446859',
+ '7767888926444448808',
+ '7805327471649584311',
+ '7878930466609197234',
+ '7957034663282035080',
+ '8709966699835249157',
+ '8890277211339706757',
+ '8924446464230845247',
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SUPER_ADMIN = '3299675674241805615'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

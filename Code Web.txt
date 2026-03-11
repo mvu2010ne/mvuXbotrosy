@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Dashboard - Nguyá»n Gia Khang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #ffffff;
+        }
+        .card {
+            background-color: #162447;
+            border: none;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: all 0.3s;
+        }
+        .btn-custom {
+            background-color: #1f4068;
+            color: #e43f5a;
+        }
+        .btn-custom:hover {
+            background-color: #e43f5a;
+            color: #ffffff;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-4">API Dashboard</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- GitHub API -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub API</h5>
+                        <p class="card-text">Kiá»m tra thÃ´ng tin GitHub vá»i tÃªn ngÆ°á»i dÃ¹ng cá»¥ thá».</p>
+                        <a href="https://about.nguyengiakhang.info/github/github.php?username=keke" target="_blank" class="btn btn-custom">Xem API</a>
+                    </div>
+                </div>
+            </div>
+            <!-- NgÆ°á»i yÃªu API -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">NgÆ°á»i yÃªu API</h5>
+                        <p class="card-text">Kiá»m tra thÃ´ng tin ngÆ°á»i yÃªu theo tÃªn.</p>
+                        <a href="https://about.nguyengiakhang.info/Nguoiyeu/ny.php?name=khang" target="_blank" class="btn btn-custom">Xem API</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- TikTok API -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">TikTok API</h5>
+                        <p class="card-text"> Download Video Tiktok KÃ¨m Ãm Thanh.</p>
+                        <a href="https://about.nguyengiakhang.info/tiktok/tiktok.php?url=https://vt.tiktok.com/ZSjCHCA2R/" target="_blank" class="btn btn-custom">Xem API</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Time API -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Time API</h5>
+                        <p class="card-text">TÃ­nh Time Äáº¿n NÄm 2025.</p>
+                        <a href="https://about.nguyengiakhang.info/time/time.php" target="_blank" class="btn btn-custom">Xem API</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Wikipedia API -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Wikipedia API</h5>
+                        <p class="card-text">Tra cá»©u thÃ´ng tin tá»« Wikipedia má»t cÃ¡ch nhanh chÃ³ng.</p>
+                        <a href="https://about.nguyengiakhang.info/wikipedia/kiwi.php?wiki=viá»t nam" target="_blank" class="btn btn-custom">Xem API</a>
+                    </div>
+                </div>
+            </div>
+                 <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Fire API</h5>
+                        <p class="card-text">Check Info Free Fire Tá»« ID.</p>
+                        <a href="https://about.nguyengiakhang.info/ff.php?id=10207830631" target="_blank" class="btn btn-custom">Xem API</a>
+        </div>
+    </div>
+    <footer>
+        <p>Designed by <strong>Nguyá»n Gia Khang</strong>. All rights reserved Â© 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

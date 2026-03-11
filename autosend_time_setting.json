@@ -1,0 +1,56 @@
+{
+    "8820471726492549823": {
+        "enabled": true,
+        "delay_minutes": 1.0,
+        "group_id": "8820471726492549823",
+        "group_name": "Yumi, Rosy, Vgm"
+    },
+    "6589255615089490598": {
+        "enabled": false,
+        "delay_minutes": 1.0,
+        "group_id": "6589255615089490598",
+        "group_name": "TEST"
+    },
+    "1939500906986299453": {
+        "enabled": true,
+        "delay_minutes": 1.0,
+        "group_id": "1939500906986299453",
+        "group_name": "Coin Card Remix"
+    },
+    "1766394154974841684": {
+        "enabled": false,
+        "delay_minutes": 1.0,
+        "group_id": "1766394154974841684",
+        "group_name": "TEST"
+    },
+    "3784846949374785635": {
+        "enabled": false,
+        "delay_minutes": 1.0,
+        "group_id": "3784846949374785635",
+        "group_name": "111"
+    },
+    "3671087029779761687": {
+        "enabled": true,
+        "delay_minutes": 120.0,
+        "group_id": "3671087029779761687",
+        "group_name": "Cộng Đồng Liên Quân - Clan PricelessAOV"
+    },
+    "4085881169588797782": {
+        "enabled": true,
+        "delay_minutes": 60.0,
+        "group_id": "4085881169588797782",
+        "group_name": "🎀ᴄˡᵃⁿ 𝘽𝙚𝙨𝙩𝙁𝙖𝙢𝙞𝙡𝙮2☘️"
+    },
+    "183321837398147950": {
+        "enabled": true,
+        "delay_minutes": 60.0,
+        "group_id": "183321837398147950",
+        "group_name": "🦋༘ʙᵒˣ ᴄˡᵃⁿ𝘽𝙚𝙨𝙩𝙁𝙖𝙢𝙞𝙡𝙮2 ౨ৎ"
+    },
+    "1292790993161104149": {
+        "enabled": false,
+        "delay_minutes": 60.0,
+        "group_id": "1292790993161104149",
+        "group_name": "Ghép Ảnh Thắng"
+    }
+}

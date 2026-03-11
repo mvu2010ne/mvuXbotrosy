@@ -1,0 +1,39 @@
+{
+    "heo": [
+        "mày là heo"
+    ],
+    "sủa đi": [
+        "gâu gâu"
+    ],
+    "643794532760252296": {
+        "name_group": "",
+        "list_train": {
+            "xin chào": [
+                {
+                    "response": "hello",
+                    "is_temporary": false
+                }
+            ],
+            "ngu": [
+                {
+                    "response": "mày mới ngu",
+                    "is_temporary": false
+                },
+                {
+                    "response": "ừ bố mày ngu được chưa",
+                    "is_temporary": false
+                },
+                {
+                    "response": "hehe",
+                    "is_temporary": false
+                }
+            ]
+        }
+    },
+    "__bot_state__": {
+        "enabled": true
+    },
+    "xin chào": [
+        "chào cc"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "8820471726492549823": {
+        "enabled": true,
+        "delay_minutes": 1.0,
+        "group_id": "8820471726492549823",
+        "group_name": "Yumi, Rosy, Vgm"
+    },
+    "6589255615089490598": {
+        "enabled": false,
+        "delay_minutes": 1.0,
+        "group_id": "6589255615089490598",
+        "group_name": "TEST"
+    },
+    "8758409720010007899": {
+        "enabled": false,
+        "delay_minutes": 1.0,
+        "group_id": "8758409720010007899",
+        "group_name": "BOX TỔNG LIÊN QUÂN"
+    },
+    "6992182166015146206": {
+        "enabled": false,
+        "delay_minutes": 3.0,
+        "group_id": "6992182166015146206",
+        "group_name": "ZxZVN - Free Mods"
+    },
+    "7096010897234915771": {
+        "enabled": false,
+        "delay_minutes": 2.0,
+        "group_id": "7096010897234915771",
+        "group_name": "Xin chào tất cả mọi người"
+    },
+    "3784846949374785635": {
+        "enabled": false,
+        "delay_minutes": 10.0,
+        "group_id": "3784846949374785635",
+        "group_name": "111"
+    },
+    "1292790993161104149": {
+        "enabled": false,
+        "delay_minutes": 1.0,
+        "group_id": "1292790993161104149",
+        "group_name": "Ghép Ảnh Thắng"
+    },
+    "3671087029779761687": {
+        "enabled": false,
+        "delay_minutes": 120.0,
+        "group_id": "3671087029779761687",
+        "group_name": "Cộng Đồng Liên Quân - Clan PricelessAOV"
+    }
+}
