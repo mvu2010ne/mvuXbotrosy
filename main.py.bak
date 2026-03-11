@@ -1,0 +1,1147 @@
+import os
+import time
+import logging
+import threading
+from datetime import datetime
+import pytz
+import json
+import random  # Thêm import này ở đầu file, sau các import khác
+import sys
+
+# Đảm bảo stdout/stderr dùng UTF-8 để tránh lỗi 'charmap' trên Windows
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    # Python < 3.7 hoặc môi trường đặc biệt không hỗ trợ reconfigure
+    pass
+from collections import defaultdict  # Thêm import này để quản lý tag tracker
+from zlapi.logging import Logging
+# Các import từ dự án của bạn
+from config import API_KEY, SECRET_KEY, IMEI, SESSION_COOKIES, PREFIX, ADMIN, SUPER_ADMIN
+from mitaizl import CommandHandler
+from zlapi import ZaloAPI, ZaloAPIException
+from zlapi.models import Message, ThreadType, Mention, MultiMsgStyle, MessageStyle
+from modules.bot_info import *
+from modules.da import welcome
+from modules.undo import UndoHandler  # Thư mục "undo" có file "undo.py"
+from modules.antispam_handler import AntiSpamHandler
+from modules.autosend_on import start_auto
+from modules.autosend_on2 import start_auto2
+from modules.autosend_custom import start_auto as start_auto_custom
+from modules.noitu import get_mitaizl, active_games
+from codesearch import LocalCodeHandler  # Import class xử lý localcode
+from modules.rs import load_reset_info, clear_reset_info  # Import từ reset_bot.py
+from modules.link_checker import schedule_link_check  # Add this line
+from modules.ms_nct import search_status, handle_chon_command
+from modules.ms_scl import search_status as scl_search_status, handle_chon_command as scl_handle_chon_command
+from modules.tiktok import searchtt_status, handle_chontt_command
+from modules.auto_reply import handle_bot_mention, handle_private_message, apply_default_style  # Import new handlers
+from modules.autosend_sticker import initialize_groups
+from modules.auto_image import initialize_groups as initialize_image_groups
+from tree_cmdmap import get_mitaizl as tree_cmdmap_get_mitaizl
+from modules.admin import get_mitaizl as admin_get_mitaizl  # Thêm import này
+from modules.huongdan import get_mitaizl as huongdan_get_mitaizl
+from codereplace import LocalCodeReplaceHandler  # Thêm dòng này
+from modules.auto_reset import initialize_auto_reset  # Thêm import này
+from list_libraries import LibraryListHandler  # Import class xử lý list.libraries
+from apistatuschecker import ApiStatusChecker  # Import class xử lý apicheck
+from replace import GeminiKeyReplaceHandler  # Thêm dòng này
+from modules.bot_info import auto_approve_silent
+from modules.automusic import initialize_groups as init_automusic
+from modules.auto_new import get_mitaizl as news_get_mitaizl
+from modules.tag_inactive import get_mitaizl as tag_inactive_get_mitaizl
+from modules.caro import get_mitaizl as caro_get_mitaizl, start_timeout_checker as caro_start_timeout_checker
+# Nhập dịch vụ phim
+from modules.phim import movie_search_results, movie_select_status, episode_select_results, episode_select_status
+from modules.phim import handle_phim_command, handle_chonphim_command as phim_handle_chon_command, handle_tap_command
+# Nhập dịch vụ YouTube
+from modules.search_ytb import search_status as ytb_search_status, handle_chonytb_command
+
+
+# Cấu hình logger thay vì in quá nhiều print
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("Bot")
+# Khởi tạo Logging với theme catppuccin
+log = Logging(theme="catppuccin", text_color="white", log_text_color="black")
+
+# Thiết lập timezone toàn cục (nếu bạn cần in thời gian cho Việt Nam)
+vietnam_tz = pytz.timezone("Asia/Ho_Chi_Minh")
+# Danh sách màu
+COLORS = [
+    "#db342e",  # Đỏ đậm
+    "#15a85f",  # Xanh lá đậm
+    "#f27806",  # Cam đậm
+    "#f7b503"   # Vàng đậm
+]
+def apply_default_style(text):
+    """
+    Hàm tạo style mặc định áp dụng cho tin nhắn phản hồi người dùng.
+    Sử dụng màu ngẫu nhiên từ danh sách COLORS.
+    """
+    base_length = len(text)
+    adjusted_length = base_length + 100  # Tăng độ dài để phủ "dư" cho toàn bộ nội dung
+
+    return MultiMsgStyle([
+        MessageStyle(
+            offset=0,
+            length=adjusted_length,
+            style="color",
+            color=random.choice(COLORS),  # Chọn ngẫu nhiên một màu từ COLORS
+            auto_format=False,
+        ),
+        MessageStyle(
+            offset=0,
+            length=adjusted_length,
+            style="font",
+            size="16",
+            auto_format=False,
+        ),
+    ])
+    
+class Client(ZaloAPI):
+    def __init__(self, api_key, secret_key, imei, session_cookies):
+        super().__init__(api_key, secret_key, imei=imei, session_cookies=session_cookies)
+        # Áp dụng các thiết lập cho bot (nếu có)
+        handle_bot_admin(self)
+
+        # Thông tin chung
+        self.version = 1.1
+        self.me_name = "BÉ BOT CỦA ROSY"
+        self.date_update = "25/01/2025"
+        # Khởi tạo chế độ admin (mặc định: False, tức là mọi người đều dùng được bot)
+        self.admin_mode = False
+        self.is_running = True  # Trạng thái bot (True: đang chạy, False: tạm dừng)
+
+        # Khởi tạo các handler
+        self.command_handler = CommandHandler(self)
+        self.undo_handler = UndoHandler()
+        self.antispam_handler = AntiSpamHandler()
+        self.game_handlers = get_mitaizl()
+        self.tree_handlers = tree_cmdmap_get_mitaizl()
+        self.localcode_handler = LocalCodeHandler()  # Khởi tạo LocalCodeHandler
+        self.localreplace_handler = LocalCodeReplaceHandler()  # Thêm dòng này
+        self.keyreplace_handler = GeminiKeyReplaceHandler()
+        self.apistatus_handler = ApiStatusChecker()  # Thêm dòng này
+        self.huongdan_handlers = huongdan_get_mitaizl()
+        self.librarylist_handler = LibraryListHandler()  # Thêm dòng này
+        self.news_handlers = news_get_mitaizl()
+        self.caro_handlers = caro_get_mitaizl()
+        self.tag_inactive_handlers = tag_inactive_get_mitaizl()
+
+        
+        # Thêm handler admin
+        self.admin_handlers = admin_get_mitaizl()
+
+        # Khởi tạo cache cho file JSON và thông tin chủ bot
+        self._banned_users = None
+        self._banned_users_time = 0
+        self._banned_groups = None
+        self._banned_groups_time = 0
+        self._cache_interval = 60  # thời gian cache (giây)
+        self._bot_owner_info = None
+        self._bot_owner_info_time = 0
+        self._bot_owner_ttl = 300  # thời gian cache thông tin chủ bot (giây)
+        # Thêm tracker cho tần suất tag
+        self.tag_tracker = defaultdict(list)
+        self.tag_limit = 1  # Tối đa 3 lần tag
+        self.tag_window = 300  # Trong 5 phút (300 giây)
+        # Tracker cho tần suất tin nhắn riêng
+        self.msg_tracker = defaultdict(list)
+        self.msg_limit = 2  # Tối đa 3 tin nhắn
+        self.msg_window = 300  # Trong 5 phút
+        
+        # Trạng thái bật/tắt tính năng
+        self.mention_enabled = True  # Mặc định bật
+        self.privatemsg_enabled = True  # Mặc định bật
+        self.message_counts = defaultdict(lambda: defaultdict(int))
+        self.load_message_counts()        
+        self.load_autoreply_config()
+
+    def load_autoreply_config(self):
+        """Load autoreply configuration from JSON file."""
+        try:
+            with open("autoreply_config.json", "r", encoding="utf-8") as f:
+                config = json.load(f)
+                self.mention_enabled = config.get("mention_enabled", True)
+                self.privatemsg_enabled = config.get("privatemsg_enabled", True)
+        except FileNotFoundError:
+            self.mention_enabled = True
+            self.privatemsg_enabled = True
+            self.save_autoreply_config()
+        except Exception as e:
+            logger.error(f"Error loading autoreply_config.json: {e}")
+            self.mention_enabled = True
+            self.privatemsg_enabled = True
+            self.save_autoreply_config()
+
+    def save_autoreply_config(self):
+        """Save autoreply configuration to JSON file."""
+        config = {
+            "mention_enabled": self.mention_enabled,
+            "privatemsg_enabled": self.privatemsg_enabled
+        }
+        try:
+            with open("autoreply_config.json", "w", encoding="utf-8") as f:
+                json.dump(config, f, ensure_ascii=False, indent=4)
+        except Exception as e:
+            logger.error(f"Error saving autoreply_config.json: {e}")
+
+    def load_message_counts(self):
+        try:
+            with open("message_counts.json", "r", encoding="utf-8") as f:
+                data = json.load(f)
+                
+            # Chuyển đổi dữ liệu cũ (nếu có) sang cấu trúc mới
+            for thread_id, users in data.items():
+                thread_id = str(thread_id)  # Đảm bảo key là string
+                for user_id, value in users.items():
+                    user_id = str(user_id)
+                    if isinstance(value, int):  # Dữ liệu cũ: chỉ có số tin nhắn
+                        self.message_counts[thread_id][user_id] = {
+                            "count": value,
+                            "dname": f"User_{user_id}"  # fallback tên cũ
+                        }
+                    elif isinstance(value, dict):  # Dữ liệu mới: đã có count + dname
+                        self.message_counts[thread_id][user_id] = {
+                            "count": value.get("count", 0),
+                            "dname": value.get("dname", f"User_{user_id}")
+                        }
+                    else:  # Trường hợp bất ngờ
+                        self.message_counts[thread_id][user_id] = {"count": 0, "dname": f"User_{user_id}"}
+                        
+        except FileNotFoundError:
+            logger.info("File message_counts.json không tồn tại → tạo mới khi lưu.")
+            self.save_message_counts()
+        except Exception as e:
+            logger.error(f"Lỗi tải message_counts.json: {e}")
+            # Nếu lỗi, khởi tạo rỗng
+            self.message_counts = defaultdict(lambda: defaultdict(dict))
+
+    def save_message_counts(self):
+        # Chuyển đổi về dict thường để lưu JSON (không lưu defaultdict)
+        data_to_save = {}
+        for thread_id, users in self.message_counts.items():
+            data_to_save[thread_id] = {}
+            for user_id, info in users.items():
+                data_to_save[thread_id][user_id] = {
+                    "count": info.get("count", 0),
+                    "dname": info.get("dname", f"User_{user_id}")
+                }
+                
+        try:
+            with open("message_counts.json", "w", encoding="utf-8") as f:
+                json.dump(data_to_save, f, ensure_ascii=False, indent=4)
+            logger.info("Đã lưu message_counts.json thành công")
+        except Exception as e:
+            logger.error(f"Lỗi lưu message_counts.json: {e}")
+            
+    def get_banned_users(self):
+        """Lấy danh sách banned_users từ file với cơ chế cache."""
+        current_time = time.time()
+        if self._banned_users is None or (current_time - self._banned_users_time > self._cache_interval):
+            try:
+                with open("banned_users.json", "r", encoding="utf-8") as f:
+                    self._banned_users = json.load(f)
+            except Exception as e:
+                logger.error("Lỗi tải banned_users.json: " + str(e))
+                self._banned_users = []
+            self._banned_users_time = current_time
+        return self._banned_users
+
+    def get_banned_groups(self):
+        """Lấy danh sách banned_groups từ file với cơ chế cache."""
+        current_time = time.time()
+        if self._banned_groups is None or (current_time - self._banned_groups_time > self._cache_interval):
+            try:
+                with open("banned_groups.json", "r", encoding="utf-8") as f:
+                    self._banned_groups = json.load(f)
+            except Exception as e:
+                logger.error("Lỗi tải banned_groups.json: " + str(e))
+                self._banned_groups = []
+            self._banned_groups_time = current_time
+        return self._banned_groups
+
+    def get_bot_owner_info(self, target_user_id):
+        """Lấy và cache thông tin chủ bot để giảm số lần gọi API."""
+        current_time = time.time()
+        if self._bot_owner_info is None or (current_time - self._bot_owner_info_time > self._bot_owner_ttl):
+            try:
+                user_info_response = self.fetchUserInfo(target_user_id)
+                self._bot_owner_info = user_info_response.changed_profiles.get(str(target_user_id))
+            except Exception as e:
+                logger.error(f"Lỗi khi fetchUserInfo của chủ bot: {e}")
+                self._bot_owner_info = None
+            self._bot_owner_info_time = current_time
+        return self._bot_owner_info
+        
+    def check_tag_spam(self, user_id):
+        """Kiểm tra xem user có tag quá tần suất không."""
+        current_time = time.time()
+        # Lọc các lần tag trong khoảng thời gian tag_window
+        self.tag_tracker[user_id] = [
+            t for t in self.tag_tracker[user_id]
+            if current_time - t < self.tag_window
+        ]
+        # Nếu vượt quá giới hạn
+        if len(self.tag_tracker[user_id]) >= self.tag_limit:
+            logger.warning(f"User {user_id} đã tag quá {self.tag_limit} lần trong {self.tag_window}s")
+            return True
+        else:
+            # Ghi nhận lần tag mới
+            self.tag_tracker[user_id].append(current_time)
+            return False   
+    
+    def check_message_spam(self, user_id):
+        """Kiểm tra xem user có gửi tin nhắn riêng quá tần suất không."""
+        current_time = time.time()
+        self.msg_tracker[user_id] = [
+            t for t in self.msg_tracker[user_id]
+            if current_time - t < self.msg_window
+        ]
+        if len(self.msg_tracker[user_id]) >= self.msg_limit:
+            logger.warning(f"User {user_id} đã gửi quá {self.msg_limit} tin nhắn trong {self.msg_window}s")
+            return True
+        else:
+            self.msg_tracker[user_id].append(current_time)
+            return False
+            
+    def toggle_mention(self, state, thread_id, thread_type):
+        new_state = (state.lower() == "on")
+        current_status = "bật" if self.mention_enabled else "tắt"
+        if new_state == self.mention_enabled:
+            message = f"Tính năng trả lời khi được tag đã được {current_status} trước đó."
+        else:
+            self.mention_enabled = new_state
+            self.save_autoreply_config()  # Save to JSON
+            status = "bật" if self.mention_enabled else "tắt"
+            message = f"Tính năng trả lời khi được tag đã được {status}."
+        self.sendMessage(
+            Message(text=message, style=apply_default_style(message)),
+            thread_id,
+            thread_type,
+            ttl=60000
+        )
+        logger.info(f"Tính năng handle_bot_mention: {message} trong thread {thread_id}")
+
+    def toggle_privatemsg(self, state, thread_id, thread_type):
+        new_state = (state.lower() == "on")
+        current_status = "bật" if self.privatemsg_enabled else "tắt"
+        if new_state == self.privatemsg_enabled:
+            message = f"Tính năng trả lời tin nhắn riêng đã được {current_status} trước đó."
+        else:
+            self.privatemsg_enabled = new_state
+            self.save_autoreply_config()  # Save to JSON
+            status = "bật" if self.privatemsg_enabled else "tắt"
+            message = f"Tính năng trả lời tin nhắn riêng đã được {status}."
+        self.sendMessage(
+            Message(text=message, style=apply_default_style(message)),
+            thread_id,
+            thread_type,
+            ttl=60000
+        )
+        logger.info(f"Tính năng handle_private_message: {message} trong thread {thread_id}")  
+
+    def handle_topchat(self, thread_id, thread_type, author_id):
+        """Xử lý lệnh topchat, chỉ ADMIN mới được sử dụng."""
+        # Kiểm tra quyền admin
+        if author_id not in ADMIN:
+            self.sendMessage(
+                Message(
+                    text="🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!",
+                    style=apply_default_style("🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!")
+                ),
+                thread_id,
+                thread_type,
+                ttl=10000
+            )
+            logger.info(f"User {author_id} không có quyền sử dụng lệnh {PREFIX}topchat")
+            return
+        if thread_type != ThreadType.GROUP:
+            self.sendMessage(
+                Message(text="Lệnh topchat chỉ dùng trong nhóm!", style=apply_default_style("Lệnh topchat chỉ dùng trong nhóm!")),
+                thread_id,
+                thread_type,
+                ttl=60000
+            )
+            return
+        counts = self.message_counts.get(thread_id, {})
+        if not counts:
+            self.sendMessage(
+                Message(text="Chưa có dữ liệu tin nhắn trong nhóm này!", style=apply_default_style("Chưa có dữ liệu tin nhắn trong nhóm này!")),
+                thread_id,
+                thread_type,
+                ttl=60000
+            )
+            return
+
+        # === TÍNH NĂNG MỚI: Cập nhật tên thực tế cho các user bị "User_..." ===
+        updated = False
+        for user_id, data in counts.items():
+            if data["dname"].startswith("User_"):
+                try:
+                    user_info = self.fetchUserInfo(user_id)
+                    profile = user_info.changed_profiles.get(str(user_id))
+                    if profile and profile.get("displayName"):
+                        new_name = profile["displayName"]
+                        data["dname"] = new_name
+                        updated = True
+                        logger.info(f"Cập nhật tên user {user_id} → {new_name}")
+                except Exception as e:
+                    logger.warning(f"Không thể fetch tên user {user_id}: {e}")
+
+        if updated:
+            self.save_message_counts()  # Lưu lại tên mới để lần sau hiển thị trực tiếp
+            logger.info("Đã cập nhật và lưu tên mới cho một số thành viên trong topchat")
+
+        # === Tiếp tục logic cũ: Sắp xếp và gửi top 200 ===
+        sorted_users = sorted(
+            counts.items(),
+            key=lambda x: x[1]["count"],
+            reverse=True
+        )[:200]
+
+        max_message_length = 2000
+        message_lines = [f"🏆 Top 200 người lắm mồm nhất nhóm:"]
+        current_length = len(message_lines[0])
+        for i, (user_id, data) in enumerate(sorted_users, 1):
+            user_name = data.get("dname", f"User {user_id}")
+            count = data["count"]
+            line = f"{i}. {user_name} - {count} tin nhắn"
+            line_length = len(line)
+            if current_length + line_length + 1 > max_message_length:
+                message_text = "\n".join(message_lines)
+                self.sendMessage(
+                    Message(text=message_text, style=apply_default_style(message_text)),
+                    thread_id,
+                    thread_type
+                )
+                logger.info(f"Đã gửi một phần danh sách topchat cho nhóm {thread_id}")
+                message_lines = [f"Phần tiếp theo:"]
+                current_length = len(message_lines[0])
+                time.sleep(1)
+            message_lines.append(line)
+            current_length += line_length + 1
+        if message_lines:
+            message_text = "\n".join(message_lines)
+            self.sendMessage(
+                Message(text=message_text, style=apply_default_style(message_text)),
+                thread_id,
+                thread_type
+            )
+            logger.info(f"Đã gửi phần cuối danh sách topchat cho nhóm {thread_id}") 
+
+    def reset_topchat(self, thread_id, thread_type, author_id):
+        """Reset dữ liệu topchat cho nhóm hiện tại"""
+        ADMIN_IDS = ["3299675674241805615"]  # ID của bạn
+        if author_id not in ADMIN_IDS:
+            self.sendMessage(
+                Message(text="🚫 Bạn không có quyền!", style=apply_default_style("🚫 Bạn không có quyền!")),
+                thread_id,
+                thread_type
+            )
+            return
+        
+        # Reset dữ liệu trong RAM
+        if thread_id in self.message_counts:
+            del self.message_counts[thread_id]
+        
+        # Reset dữ liệu trong file
+        try:
+            with open("message_counts.json", "r", encoding="utf-8") as f:
+                all_data = json.load(f)
+        except FileNotFoundError:
+            all_data = {}
+        
+        if thread_id in all_data:
+            del all_data[thread_id]
+            
+        with open("message_counts.json", "w", encoding="utf-8") as f:
+            json.dump(all_data, f, ensure_ascii=False, indent=4)
+        
+        self.sendMessage(
+            Message(text="✅ Đã reset dữ liệu topchat cho nhóm này!", style=apply_default_style("✅ Đã reset dữ liệu topchat cho nhóm này!")),
+            thread_id,
+            thread_type
+        )
+        logger.info(f"Đã reset topchat cho nhóm {thread_id}")               
+  
+    def toggle_bot(self, state, thread_id, thread_type, author_id):
+        ADMIN_IDS = ["3299675674241805615"]
+        if author_id not in ADMIN_IDS:
+            self.sendMessage(
+                Message(
+                    text="🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!",
+                    style=apply_default_style("🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!")
+                ),
+                thread_id,
+                thread_type
+            )
+            logger.info(f"User {author_id} không có quyền sử dụng lệnh {PREFIX}bot{state}")
+            return
+        new_state = (state.lower() == "on")
+        current_status = "bật" if self.is_running else "tắt"
+        if new_state == self.is_running:
+            message = f"Bot đã được {current_status} trước đó."
+        else:
+            self.is_running = new_state
+            status = "bật" if self.is_running else "tắt"
+            message = f"✅✅✅ Bot đã được {status}"
+            if not self.is_running:
+                message += "\n⚠ Bot sẽ không phản hồi bất kỳ tin nhắn nào cho đến khi được bật lại."
+            self.sendMessage(
+                Message(text=message, style=apply_default_style(message)),
+                thread_id,
+                thread_type,
+                ttl=60000
+            )
+            logger.info(f"Bot đã được {status} bởi admin {author_id} trong thread {thread_id}")
+            
+    def is_user_muted_in_group(self, author_id, thread_id):
+        """Kiểm tra mute + tự động dọn hết hạn + dọn luôn bộ đếm vi phạm"""
+        try:
+            s = read_settings()
+            now = time.time()
+            still_muted = []
+            cleaned = False
+            violations_key = f"{thread_id}_{author_id}"
+
+            for user in s.get("muted_users", []):
+                user_thread = str(user.get("thread_id"))
+                user_author = str(user.get("author_id"))
+                muted_until = user.get("muted_until", 0)
+
+                # Nếu đã hết hạn → bỏ khỏi danh sách mute
+                if now >= muted_until:
+                    cleaned = True
+                    # === QUAN TRỌNG: XÓA LUÔN BỘ ĐẾM VI PHẠM CỦA NGƯỜI NÀY ===
+                    if "violations" in s:
+                        if f"{user_thread}_{user_author}" in s["violations"]:
+                            del s["violations"][f"{user_thread}_{user_author}"]
+                    continue
+
+                still_muted.append(user)
+
+            # Ghi lại file nếu có người được dọn
+            if cleaned:
+                s["muted_users"] = still_muted
+                write_settings(s)
+
+            # Kiểm tra người hiện tại có còn bị mute không
+            for user in still_muted:
+                if (str(user.get("author_id")) == str(author_id) and
+                    str(user.get("thread_id")) == str(thread_id) and
+                    now < user.get("muted_until", 0)):
+                    return True
+
+            return False
+
+        except Exception as e:
+            logger.error(f"Lỗi check mute: {e}")
+            return False
+    
+
+    def onEvent(self, event_data, event_type):
+        # Bỏ qua nếu bot tắt
+        if not self.is_running:
+            logger.info(f"Sự kiện {event_type} bị bỏ qua vì bot đang tắt")
+            return
+
+        # XỬ LÝ TỰ ĐỘNG DUYỆT TRƯỚC (không phụ thuộc welcome)
+        if event_type == GroupEventType.JOIN_REQUEST:
+            print(f"\n[EVENT] Phát hiện JOIN.REQUEST: {event_data.get('groupId')}")
+            auto_approve_silent(self, event_data, event_type)
+            return  # Dừng xử lý tiếp nếu là JOIN.REQUEST
+
+        # Sau đó mới gọi welcome (nếu cần)
+        welcome(self, event_data, event_type)
+    def is_protected_super_admin(self, target_uid):
+        """Kiểm tra xem UID này có phải SUPER_ADMIN cần bảo vệ không"""
+        if not target_uid:
+            return False
+        return str(target_uid) == str(SUPER_ADMIN)    
+
+    def onMessage(self, mid, author_id, message, message_object, thread_id, thread_type):
+
+        
+        """
+        Hàm xử lý khi có tin nhắn đến.
+        """
+        # Hiển thị trạng thái đang soạn tin nhắn
+        try:
+            self.setTyping(thread_id, thread_type)
+        except ZaloAPIException as e:
+            logger.error(f"Lỗi khi đặt trạng thái typing: {e}")
+        except Exception as e:
+            logger.error(f"Lỗi không xác định khi đặt trạng thái typing: {e}")
+        # 🔍 Chuẩn hóa message: nếu là dict (ví dụ chat.recommended) -> lấy title/description
+        if isinstance(message, dict):
+            message = message.get("title") or message.get("description") or ""
+            
+        # Bỏ qua tin nhắn do chính bot gửi
+        if author_id == self.uid:
+            return
+
+        # Kiểm tra trạng thái bot
+        if not self.is_running:
+            # Chỉ xử lý lệnh //boton từ admin
+            if isinstance(message, str) and message.strip().lower() == f"{PREFIX}startbot":
+                self.toggle_bot("on", thread_id, thread_type, author_id)
+            return
+            
+        # Kiểm tra chế độ admin
+        ADMIN_ID = ADMIN
+        if self.admin_mode and author_id not in ADMIN_ID:
+            # Nếu chế độ admin bật và người dùng không phải admin, bỏ qua tin nhắn
+            logger.info(f"Tin nhắn từ {author_id} bị bỏ qua do chế độ admin")
+            return 
+
+        if thread_type == ThreadType.GROUP:
+            # Bỏ qua hoàn toàn nếu là reaction (không đếm vào topchat)
+            if getattr(message_object, "msgType", None) == "chat.reaction":
+                # Có thể log nhẹ nếu muốn theo dõi
+                # logger.debug(f"Bỏ qua reaction từ {author_id} trong nhóm {thread_id}")
+                pass  # Không làm gì cả, không tăng count
+            else:
+                # Chỉ đếm các loại tin nhắn thực sự (text, media, sticker, file, v.v.)
+                dname = getattr(message_object, "dName", None)
+                if dname is None:
+                    dname = f"User_{author_id}"
+
+                # Khởi tạo nếu chưa có
+                if author_id not in self.message_counts[thread_id]:
+                    self.message_counts[thread_id][author_id] = {"count": 0, "dname": dname}
+
+                # Tăng count và cập nhật tên mới nhất
+                self.message_counts[thread_id][author_id]["count"] += 1
+                self.message_counts[thread_id][author_id]["dname"] = dname
+
+                # Lưu (tùy chọn: có thể tối ưu không lưu mỗi lần, xem ghi chú bên dưới)
+                self.save_message_counts()        
+
+       # Kiểm tra và xử lý tin nhắn media (ảnh/video)
+        if handle_media_content(self, author_id, thread_id, message_object, thread_type):
+            return 
+
+        allowed_thread_ids = get_allowed_thread_ids()
+        print(f"[DEBUG] Danh sách nhóm được phép (allowed_threads): {allowed_thread_ids}")  # In 1 lần khi bot khởi động lại
+
+        if thread_type == ThreadType.GROUP:
+            if thread_id in allowed_thread_ids:
+                # === BOT ĐÃ VÀO ĐƯỢC KHỐI KIỂM DUYỆT CHO NHÓM NÀY ===
+                print(f"[MODERATION ACTIVE] Đang xử lý kiểm duyệt cho nhóm: {thread_id}")
+                print(f"[MODERATION ACTIVE] Bot đang hoạt động đầy đủ trong nhóm {thread_id}")
+
+                # Kiểm duyệt nội dung (xóa ảnh nude, link, sticker, từ cấm, v.v.)
+                handle_check_profanity(self, author_id, thread_id, message_object, thread_type, message)
+
+                # === KIỂM TRA TỪ CẤM ĐỂ CHẶN LỆNH (NHƯNG BỎ QUA ADMIN) ===
+                if author_id not in ADMIN:
+                    if is_forbidden_word(message_object):
+                        warning_text = ""
+                        self.sendMessage(
+                            Message(text=warning_text, style=apply_default_style(warning_text)),
+                            thread_id,
+                            thread_type,
+                            ttl=30000
+                        )
+                        print(f"[FORBIDDEN WORD] Chặn lệnh user {author_id} vì từ cấm - nhóm {thread_id}")
+                        return  # Dừng xử lý lệnh
+                # ========================================
+            else:
+                # === NHÓM KHÔNG ĐƯỢC BẬT BOT ===
+                print(f"[MODERATION SKIPPED] Nhóm {thread_id} KHÔNG nằm trong allowed_threads → bỏ qua kiểm duyệt")
+                print(f"[MODERATION SKIPPED] Bỏ qua nhóm {thread_id} (chưa bật bot)")
+      
+        
+
+        if thread_type == ThreadType.GROUP:
+            if self.is_user_muted_in_group(author_id, thread_id):
+                # Vẫn có thể tăng topchat nếu bạn muốn (bỏ comment dòng dưới)
+                # self.message_counts[thread_id][author_id] += 1
+                # self.save_message_counts()
+                logger.info(f"[MUTED] User {author_id} bị mute → không thể tương tác với bot")
+                return  # ← Quan trọng: dừng toàn bộ xử lý tiếp theo            
+
+        # --- Bỏ qua tin nhắn từ những người dùng bị cấm theo tệp banned_users.json ---
+        banned_users_list = self.get_banned_users()
+        banned_user_ids = [user["user_id"] for user in banned_users_list]
+        if author_id in banned_user_ids:
+            return
+
+        # --- Bỏ qua tin nhắn từ những nhóm bị cấm theo tệp banned_groups.json ---
+        if thread_type == ThreadType.GROUP:
+            banned_groups_list = self.get_banned_groups()
+            banned_group_ids = [group["group_id"] for group in banned_groups_list]
+            if thread_id in banned_group_ids:
+                return
+
+        # Lấy dName (tên hiển thị) nếu có
+        dname_value = getattr(message_object, "dName", "Không có giá trị")
+
+        # Lấy thời gian hiện tại (theo múi giờ Việt Nam)
+        now_str = datetime.now(vietnam_tz).strftime("%H:%M:%S %d/%m/%Y")
+
+        # Log đơn giản
+        logger.info(f"[{now_str}] Msg from {dname_value}({author_id}) in {thread_type}-{thread_id}: {message}")
+        
+        # Kiểm tra nếu tin nhắn là số và đang trong trạng thái tìm kiếm bài hát
+        if isinstance(message, str) and message.strip().isdigit():
+            if thread_id in search_status:
+                # Gọi hàm handle_chon_command với tin nhắn giả lập "nct <số>"
+                simulated_message = f"//nct {message.strip()}"
+                handle_chon_command(simulated_message, message_object, thread_id, thread_type, author_id, self)
+                return
+            if thread_id in scl_search_status:
+                # Gọi hàm handle_chon_command với tin nhắn giả lập "scl <số>"
+                simulated_message = f"//scl {message.strip()}"
+                scl_handle_chon_command(simulated_message, message_object, thread_id, thread_type, author_id, self)
+                return
+            if thread_id in searchtt_status:
+                # Gọi hàm handle_chontt_command với tin nhắn giả lập "ttchon <số>"
+                simulated_message = f"ttchon {message.strip()}"
+                handle_chontt_command(simulated_message, message_object, thread_id, thread_type, author_id, self)
+                return
+            if thread_id in ytb_search_status:
+                # Kiểm tra xem đã chọn xong chưa (has_selected = True thì đã chọn)
+                # Trong search_ytb.py: search_status[thread_id] = (time_sent, has_selected, msg_id_or_path, thread_type)
+                if not ytb_search_status[thread_id][1]:  # chưa chọn xong
+                    simulated_message = f"//ytb {message.strip()}"
+                    handle_chonytb_command(simulated_message, message_object, thread_id, thread_type, author_id, self)
+                    return    
+            if thread_id in movie_select_status and not movie_select_status[thread_id][1]:  # chưa chọn xong
+                simulated_message = f"//chon {message.strip()}"
+                phim_handle_chon_command(simulated_message, message_object, thread_id, thread_type, author_id, self)
+                return
+
+            # Xử lý chọn tập (khi đang ở trạng thái chọn tập)
+            if thread_id in episode_select_status and not episode_select_status[thread_id][1]:
+                simulated_message = f"tap {message.strip()}"
+                handle_tap_command(simulated_message, message_object, thread_id, thread_type, author_id, self)
+                return  
+            if thread_id in active_games:
+                game = active_games[thread_id]
+                required_word = game["last_word"]
+
+                if isinstance(message, str):
+                    player_input = message.strip().lower()
+                    words = player_input.split()
+
+                    if len(words) == 2 and words[0] == required_word:
+                        self.game_handlers["default"](message, message_object, thread_id, thread_type, author_id, self)
+                        return  
+        if isinstance(message, str) and message.strip().isdigit():
+            move = int(message.strip())
+            if move == 0 or move == 1 or (1 <= move <= 256):
+                if self.caro_handlers.get("//caro"):
+                    handled = self.caro_handlers["//caro"](message, message_object, thread_id, thread_type, author_id, self)
+                    if handled:
+                        return  # Caro đã xử lý → dừng luôn, không cho module khác xử lý số này      
+            
+        # Xử lý lệnh bật/tắt tính năng
+        if isinstance(message, str):
+            msg_lower = message.strip().lower()
+            # Danh sách ID admin (có thể lấy từ config.py)
+            ADMIN_IDS = ["3299675674241805615"]  # Thay bằng config.ADMIN_IDS nếu có
+            if msg_lower == f"{PREFIX}stopbot":
+                self.toggle_bot("off", thread_id, thread_type, author_id)
+                return
+            if msg_lower == f"{PREFIX}startbot":
+                self.toggle_bot("on", thread_id, thread_type, author_id)
+                return
+            if msg_lower.startswith(f"{PREFIX}bott reply"):
+                if author_id not in ADMIN_IDS:
+                    self.sendMessage(
+                        Message(
+                            text="🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!",
+                            style=apply_default_style("🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!")
+                        ),
+                        thread_id,
+                        thread_type
+                    )
+                    logger.info(f"User {author_id} không có quyền sử dụng lệnh {PREFIX}reply")
+                    return
+                try:
+                    state = msg_lower.split()[2]
+                    if state in ["on", "off"]:
+                        self.toggle_mention(state, thread_id, thread_type)
+                    else:
+                        self.sendMessage(
+                            Message(
+                                text=f"Sai cú pháp. Sử dụng: {PREFIX}reply on/off",
+                                style=apply_default_style(f"Sai cú pháp. Sử dụng: {PREFIX}tag on/off")
+                            ),
+                            thread_id,
+                            thread_type
+                        )
+                except IndexError:
+                    self.sendMessage(
+                        Message(
+                            text=f"Vui lòng chỉ định trạng thái: {PREFIX}reply on/off",
+                            style=apply_default_style(f"Vui lòng chỉ định trạng thái: {PREFIX}reply on/off")
+                        ),
+                        thread_id,
+                        thread_type
+                    )
+                return
+            if msg_lower.startswith(f"{PREFIX}bott pm"):
+                if author_id not in ADMIN_IDS:
+                    self.sendMessage(
+                        Message(
+                            text="🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!",
+                            style=apply_default_style("🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!")
+                        ),
+                        thread_id,
+                        thread_type
+                    )
+                    logger.info(f"User {author_id} không có quyền sử dụng lệnh {PREFIX}pm")
+                    return
+                try:
+                    state = msg_lower.split()[2]
+                    if state in ["on", "off"]:
+                        self.toggle_privatemsg(state, thread_id, thread_type)
+                    else:
+                        self.sendMessage(
+                            Message(
+                                text=f"Sai cú pháp. Sử dụng: {PREFIX}pm on/off",
+                                style=apply_default_style(f"Sai cú pháp. Sử dụng: {PREFIX}pm on/off")
+                            ),
+                            thread_id,
+                            thread_type
+                        )
+                except IndexError:
+                    self.sendMessage(
+                        Message(
+                            text=f"Vui lòng chỉ định trạng thái: {PREFIX}pm on/off",
+                            style=apply_default_style(f"Vui lòng chỉ định trạng thái: {PREFIX}pm on/off")
+                        ),
+                        thread_id,
+                        thread_type
+                    )
+                return
+
+            # Tìm phần code xử lý lệnh topchat trong onMessage và sửa thành:
+            if msg_lower == f"{PREFIX}topchat":
+                self.handle_topchat(thread_id, thread_type, author_id)
+                return
+            # Thêm vào phần xử lý lệnh trong onMessage
+            if msg_lower == f"{PREFIX}resettopchat":
+                self.reset_topchat(thread_id, thread_type, author_id)
+                return    
+
+        # Xử lý khi bot được tag
+        if self.mention_enabled:
+            if handle_bot_mention(self, message_object, author_id, dname_value, message, thread_id, thread_type, now_str):
+                return
+            
+        # Process message only if Undo is enabled for the group
+        if self.undo_handler.is_undo_enabled(thread_id) or message_object.msgType != 'chat.undo':
+            self.process_message(message_object, thread_id, thread_type)    
+
+        # Xử lý tin nhắn riêng
+        if self.privatemsg_enabled:
+            handle_private_message(self, message_object, author_id, message, thread_id, thread_type, now_str)
+
+        # ---------------------------------------------------------------
+
+            
+        # Xử lý lệnh localcode
+        if isinstance(message, str) and message.startswith(f"{PREFIX}code.search"):
+            self.localcode_handler.handle_localcode(self, message, message_object, thread_id, thread_type, author_id)
+            return
+        # Xử lý lệnh localreplace
+        if isinstance(message, str) and message.startswith(f"{PREFIX}code.replace"):
+            self.localreplace_handler.handle_localreplace(self, message, message_object, thread_id, thread_type, author_id)
+            return
+        # Xử lý lệnh key.replace
+        if isinstance(message, str) and message.startswith(f"{PREFIX}replace"):
+            self.keyreplace_handler.handle_keyreplace(self, message, message_object, thread_id, thread_type, author_id)
+            return    
+        # Xử lý lệnh list.libraries
+        if isinstance(message, str) and message.startswith(f"{PREFIX}list.thuvien"):
+            self.librarylist_handler.handle_listlibraries(self, message, message_object, thread_id, thread_type, author_id)
+            return
+        # Xử lý lệnh apicheck
+        if isinstance(message, str) and message.startswith(f"{PREFIX}apicheckall"):
+            self.apistatus_handler.handle_apicheck(self, message, message_object, thread_id, thread_type, author_id)
+            return    
+
+        # Chống spam
+        if self.antispam_handler.is_antispam_enabled(thread_id):
+            if self.antispam_handler.check_and_handle_spam(self, author_id, thread_id, message_object, thread_type):
+                return  # Nếu tin nhắn bị xác định là spam, dừng xử lý tiếp
+
+        # Lệnh bật/tắt antispam
+        if isinstance(message, str) and message.startswith(f"{PREFIX}antispam"):
+            self.antispam_handler.toggle_antispam(self, message, message_object, thread_id, thread_type)
+            
+        # Xử lý trò chơi Nối Từ
+        if isinstance(message, str):
+            msg_lower = message.strip().lower()
+            if msg_lower.startswith("nt "):  # Lệnh bắt đầu trò chơi
+                self.game_handlers["nt"](message, message_object, thread_id, thread_type, author_id, self)
+                return  # Ngăn xử lý tiếp khi bắt đầu trò chơi
+            elif msg_lower == "ntstop":  # Lệnh dừng trò chơi
+                self.game_handlers["ntstop"](message, message_object, thread_id, thread_type, author_id, self)
+                return  # Ngăn xử lý tiếp khi dừng trò chơi
+            elif thread_id in active_games:  # Xử lý đáp án nối từ
+                self.game_handlers["default"](message, message_object, thread_id, thread_type, author_id, self)
+                # Không return ở đây để tiếp tục xử lý lệnh khác nếu không khớp last_tail 
+        
+        if isinstance(message, str) and message.strip().lower() == f"{PREFIX}botstatus":
+            if author_id not in ["3299675674241805615"]:
+                self.sendMessage(
+                    Message(
+                        text="🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!",
+                        style=apply_default_style("🚫 Bạn không có quyền sử dụng lệnh này. Chỉ admin mới có thể sử dụng!")
+                    ),
+                    thread_id,
+                    thread_type
+                )
+                logger.info(f"User {author_id} không có quyền sử dụng lệnh {PREFIX}botstatus")
+                return
+            status_text = (
+                f"📊 Trạng thái bot:\n"
+                f"═══════════════════════\n"
+                f"📢 Tag reply: {'Bật' if self.mention_enabled else 'Tắt'}\n"
+                f"📩 Private message reply: {'Bật' if self.privatemsg_enabled else 'Tắt'}\n"
+                f"═══════════════════════\n"
+                f"🕒 Thời gian: {now_str}"
+            )
+            self.sendMessage(
+                Message(text=status_text, style=apply_default_style(status_text)),
+                thread_id,
+                thread_type,
+                ttl=60000
+            )
+            logger.info(f"Đã gửi trạng thái bot cho admin {author_id} trong thread {thread_id}")
+            return        
+                
+        # Xử lý lệnh tree.cmdmap
+        if isinstance(message, str) and message.startswith(f"{PREFIX}tree.cmdmap"):
+            self.tree_handlers["tree.cmdmap"](message, message_object, thread_id, thread_type, author_id, self)
+            return
+
+        # Xử lý lệnh admin
+        if isinstance(message, str) and message.startswith(f"{PREFIX}admin"):
+            self.admin_handlers["admin"](message, message_object, thread_id, thread_type, author_id, self)
+            return 
+                # Xử lý lệnh tag thành viên chưa tương tác
+        msg_lower = message.strip().lower()
+        if msg_lower in [f"{PREFIX}tag.inactive", f"{PREFIX}tagkhongtuongtac"]:
+            self.tag_inactive_handlers["tag.inactive"](message, message_object, thread_id, thread_type, author_id, self)
+            return
+        if isinstance(message, str):
+            msg_lower = message.strip().lower()
+
+            # Huongdan command
+            if self.huongdan_handlers["huongdan"](message, PREFIX, self.sendMessage, thread_id, thread_type, author_id, logger):
+                return     
+                # ============================================================
+        # CHẶN LỆNH ĐỐI VỚI SUPER_ADMIN (thêm vào đây - trước command_handler)
+        # ============================================================
+        if isinstance(message, str):
+            msg_lower = message.strip().lower()
+            
+            # Các lệnh có khả năng ảnh hưởng đến người khác (mute/kick/block/ban/...)
+            dangerous_keywords = [
+                "mute", "unmute", "kick", "block", "unblock", "ban", "unban",
+                "cấm", "mute ", "kick ", "block ", "ban ", "khóa ", "gỡ "
+            ]
+            
+            if any(kw in msg_lower for kw in dangerous_keywords):
+                # Kiểm tra xem có tag ai không
+                mentions = getattr(message_object, "mentions", []) or []
+                target_uids = []
+                
+                # Lấy từ mentions
+                if mentions:
+                    target_uids = [m.uid for m in mentions if m.uid]
+                
+                # Nếu lệnh có dạng bot kick 123456789 hoặc bot ban 123456789
+                parts = msg_lower.split()
+                if len(parts) >= 3:
+                    possible_uid = parts[-1]
+                    if possible_uid.isdigit():
+                        target_uids.append(possible_uid)
+                
+                # Loại bỏ trùng lặp
+                target_uids = list(set(target_uids))
+                
+                for target in target_uids:
+                    if self.is_protected_super_admin(target):
+                        warning = f"🚫 Lệnh này không thể thực hiện với Quản Trị Viên Tối Cao!"
+                        self.sendMessage(
+                            Message(text=warning, style=apply_default_style(warning)),
+                            thread_id,
+                            thread_type,
+                            ttl=45000
+                        )
+                        logger.warning(f"[PROTECT SUPER_ADMIN] Chặn lệnh '{msg_lower}' nhắm vào {target} bởi {author_id}")
+                        return  # ← DỪNG NGAY, không xử lý tiếp
+        # ============================================================
+        # Xử lý lệnh khác (command)
+        if isinstance(message, str):
+            self.command_handler.handle_command(message, author_id, message_object, thread_id, thread_type)
+            
+
+    def process_message(self, message_object, thread_id, thread_type):
+        """
+        Xử lý tin nhắn ngay khi nhận được.
+        Nếu tin nhắn là sự kiện thu hồi (chat.undo) thì sẽ truy xuất nội dung tin nhắn đã lưu trước đó
+        và hiển thị lại nội dung đó theo đúng định dạng.
+        Sau đó, lưu lại tin nhắn để hỗ trợ các lần thu hồi sau.
+        """
+        if message_object.msgType == 'chat.undo':
+            cliMsgId = str(message_object.content.get('cliMsgId', ''))
+            saved_message = self.undo_handler.get_message(cliMsgId)
+            if saved_message:
+                formatted_time = time.strftime("%H:%M:%S %d/%m/%Y", time.localtime())
+                mention_text = "@Member"
+                # Tạo mention với độ dài của mention_text
+                mention = Mention(message_object.uidFrom, length=len(mention_text), offset=0)
+
+                if 'href' in saved_message['content']:
+                    href = saved_message['content']['href']
+                    if 'stk' in href:
+                        catId = saved_message['content']['catId']
+                        stk_id = saved_message['content']['id']
+                        self.sendsticker(stk_id, catId, thread_id, thread_type)
+                    elif 'jpg' in href or 'png' in href:
+                        image_file = self.undo_handler.download_image(href)
+                        self.sendLocalImage(image_file, thread_id=thread_id, thread_type=thread_type, ttl=30000)
+                        os.remove(image_file)
+                        undo_text = f"{mention_text}\n\n🖼️ Hình ảnh đã bị thu hồi\n{href}\n\n⏰ Thời gian: {formatted_time}"
+                        self.replyMessage(
+                            Message(text=undo_text, style=apply_default_style(undo_text), mention=mention),
+                            message_object,
+                            thread_id,
+                            thread_type,
+                            ttl=30000
+                        )
+                    elif 'video' in href:
+                        undo_text = f"{mention_text}\n\n📹 Video đã bị thu hồi\n{href}\n\n⏰ Thời gian: {formatted_time}"
+                        self.replyMessage(
+                            Message(text=undo_text, style=apply_default_style(undo_text), mention=mention),
+                            message_object,
+                            thread_id,
+                            thread_type,
+                            ttl=30000
+                        )
+                        self.sendRemoteVideo(href, thread_id=thread_id, thread_type=thread_type, ttl=30000)
+                    elif 'voice' in href:
+                        undo_text = f"{mention_text}\nVoice đã bị thu hồi:\n{href}\nThời gian: {formatted_time}"
+                        self.replyMessage(
+                            Message(text=undo_text, style=apply_default_style(undo_text), mention=mention),
+                            message_object,
+                            thread_id,
+                            thread_type,
+                            ttl=30000
+                        )
+                        self.sendRemoteVoice(href, thread_id=thread_id, thread_type=thread_type, ttl=30000)
+                else:
+                    content = saved_message['content']
+                    undo_text = (
+    f"{mention_text}\n\n"
+    "⚠️ Tin nhắn đã được thu hồi\n"
+    "──────────────────────\n"
+    f"💬 Nội dung: {content}\n"
+    "──────────────────────\n"
+    f"🕒 Thời gian: {formatted_time}"
+)
+
+                    self.replyMessage(
+                        Message(text=undo_text, style=apply_default_style(undo_text), mention=mention),
+                        message_object,
+                        thread_id,
+                        thread_type,
+                        ttl=30000
+                    )
+            else:
+                print(f"Không tìm thấy nội dung tin nhắn với cliMsgId: {cliMsgId}")
+        # Sau khi xử lý undo, lưu tin nhắn để hỗ trợ các lần thu hồi sau
+        self.undo_handler.save_message(message_object)
+
+    def kick_member_from_group(self, user_id, thread_id):
+        """
+        Ví dụ hàm kick thành viên khỏi nhóm.
+        """
+        if user_id == self.uid:
+            return
+        try:
+            response = self.blockUsersInGroup(user_id, thread_id)
+            if response.get('status') == 'success':
+                kick_text = "Bạn đã bị kick khỏi nhóm vì vi phạm nội quy hoặc spam."
+                self.sendMessage(
+                    Message(text=kick_text, style=apply_default_style(kick_text)),
+                    user_id,
+                    ThreadType.USER,
+                )
+                print(f"Đã kick thành viên {user_id} khỏi nhóm {thread_id}")
+            else:
+                logger.error(f"Lỗi khi kick thành viên {user_id} khỏi nhóm {thread_id}")
+        except ZaloAPIException as e:
+            logger.error(f"Lỗi ZaloAPIException khi kick: {e}")
+        except Exception as e:
+            logger.error(f"Lỗi không xác định khi kick: {e}")
+
+
+def run_bot():
+    backoff = 5
+    max_backoff = 60
+    while True:
+        try:
+            client = Client(API_KEY, SECRET_KEY, IMEI, SESSION_COOKIES)
+            print("Khởi tạo Client thành công")
+            # Khởi chạy các thread
+            threading.Thread(target=start_auto, args=(client,), daemon=True).start()
+            threading.Thread(target=start_auto2, args=(client,), daemon=True).start()
+            threading.Thread(target=start_auto_custom, args=(client,), daemon=True).start()
+            threading.Thread(target=initialize_groups, args=(client,), daemon=True).start()
+            threading.Thread(target=initialize_image_groups, args=(client,), daemon=True).start()
+            threading.Thread(target=news_get_mitaizl()['on_start_news'], args=(client,), daemon=True).start()
+            threading.Thread(target=init_automusic, args=(client,), daemon=True).start()
+            threading.Thread(target=initialize_auto_reset, args=(client,), daemon=True).start()
+            client.link_check_thread = threading.Thread(target=schedule_link_check, args=(client,), daemon=True)
+            threading.Thread(target=caro_start_timeout_checker, args=(client,), daemon=True).start()
+            client.link_check_thread.start()
+            log.success("Đã khởi chạy tất cả thread")  # Sử dụng Logging.success thay vì print
+            # Gửi thông báo khởi động
+            reset_info = load_reset_info()
+            default_thread_id = "643794532760252296"
+            thread_id = reset_info["thread_id"] if reset_info else default_thread_id
+            now_str = datetime.now(vietnam_tz).strftime("%H:%M:%S %d/%m/%Y")
+            message_content = (
+                f"✔ Khởi động lại hoàn tất! 🚀\n"
+                f"═══════════════════════\n"
+                f"🇳 🇦 🇲 🇪 : {client.me_name}\n"
+                f"🇮 🇩 : {client.uid}\n"
+                f"🇹 🇮 🇲 🇪 : {now_str}\n"
+                f"🇹 🇮 🇲 🇪 🇿 🇴 🇳 🇪 : Asia/Ho_Chi_Minh\n"
+                f"🇨 🇷 🇪 : Thắng Nguyễn\n"
+            )
+            client.sendMessage(Message(text=message_content), thread_id, ThreadType.GROUP)
+            if reset_info:
+                clear_reset_info()
+            log.success(f"Đã gửi thông báo khởi động tới thread {thread_id}")  # Sử dụng Logging.success thay vì print
+            client.listen(run_forever=True, thread=True, delay=0)
+            print("Kết thúc lắng nghe (bình thường)")
+            break
+        except ZaloAPIException as e:
+            print(f"ZaloAPI error: {e}")
+            time.sleep(backoff)
+            backoff = min(backoff * 2, max_backoff)
+        except MemoryError:
+            print("Out of memory! Exiting bot...")
+            sys.exit(1)
+        except Exception as e:
+            # Đảm bảo không bị lỗi charmap trên Windows khi in lỗi lạ
+            try:
+                print(f"Unknown error: {e}")
+            except Exception:
+                print(f"Unknown error (repr): {repr(e)}")
+            time.sleep(backoff)
+            backoff = min(backoff * 2, max_backoff)
+            
+if __name__ == "__main__":
+    run_bot()

@@ -1,0 +1,392 @@
+{
+  "menu": {
+    "commands": [
+      "menu Media — Xem Ảnh & Video 🖼️",
+      "menu Game — Trò Chơi 🎲",
+      "menu User — Thông Tin Người Dùng 👤",
+      "menu Group — Quản Lý Nhóm 👥",
+      "menu Bot — Quản Lý Bot 🤖",
+      "menu Send — Quản Lý Gửi Tin Nhắn 📤",
+      "menu Stk — Quản Lý Sticker 🎨",
+      "menu Search — Tìm Kiếm 🔍",
+      "menu Spam — Công Cụ Spam 🛠️",
+      "menu Code — Quản Lý Mã Nguồn 💻",
+      "menu Tag — Gắn Thẻ Người Dùng 🏷️",
+      "menu File — Quản Lý File 📁",
+      "menu Use — Quản Lý Quyền Sử Dụng Bot 🔒",
+      "menu Cmd — Quản Lý Lệnh ⚙️",
+      "menu Checklink — Kiểm Soát Liên Kết 🔗",
+      "menu Ms — Âm Thanh & Nhạc 🎵",
+      "menu Img — Tạo Hình Ảnh 🖌️",
+      "menu Fun — Giải Trí & Trò Chuyện 😂",
+      "menu Auto — Tự Động Gửi ⏰",
+      "menu Tool — Công Cụ 📝",
+      "group — Quản Lý Thông Tin Nhóm 👥",
+      "bott — Cài Đặt & Tùy Chỉnh Bot ⚙️",
+      "casio — Máy Tính Casio 🧮",
+      "dich — Dịch Ngôn Ngữ 🌐",
+      "help — Hướng Dẫn Sử Dụng Lệnh ❓"
+    ],
+    "total": 370
+  },
+  "media": {
+    "commands": [
+      "bst — Ảnh từ bộ sưu tập 📝",
+      "addBst — Thêm ảnh vào bộ sưu tập 📜",
+      "delbst — Xóa ảnh khỏi bộ sưu tập 📜",
+      "fix — Sửa tên bộ sưu tập 🔧",
+      "neko — Ảnh neko 🍥",
+      "gai — Ảnh gái xinh 🌸",
+      "haha — Ảnh meme 😂",
+      "Jp — Ảnh idol Nhật 🌟",
+      "Mlem — Ảnh mông 😸",
+      "Otaku — Ảnh anime 🎌",
+      "pongif — Porn gif 🎌",
+      "gaitt — Video gái nhảy tiktok 🔞",
+      "vd18 — Video 18+ 🔥",
+      "vdgai — Video từ json Github 🌸",
+      "Vdx — Video người lớn 🔞"
+    ],
+    "total": 15
+  },
+  "game": {
+    "commands": [
+      "Bcua — Chơi trò Bầu Cua vui nhộn 🎲",
+      "Txiu — Chơi Tài Xỉu với kết quả ngẫu nhiên 🎲",
+      "Taixiu — Chơi Tài Xỉu (phiên bản khác) 🎲",
+      "Soi — Soi cầu dự đoán kết quả Tài Xỉu 🧠",
+      "Dhbc — Chơi Đuổi hình bắt chữ với 1 ảnh 🖼️",
+      "Dhbc2 — Chơi Đuổi hình bắt chữ với 2 ảnh 🖼️",
+      "Random — Trò chơi ngẫu nhiên đầy bất ngờ 🎯",
+      "Vtv — Tham gia Vua Tiếng Việt giải đố 🔢",
+      "Ngaunhien — Random kết quả ngẫu nhiên 🎲",
+      "Nt — Tham gia trò chơi nối từ 📡",
+      "cotuong — Chơi cờ tướng 📡",
+      "Bc — Xem menu chi tiết của trò Bầu Cua 📜",
+      "Tx — Xem menu chi tiết của trò Tài Xỉu 📜"
+    ],
+    "total": 13
+  },
+  "user": {
+    "commands": [
+      "user.CreatTime — Kiểm tra thời gian tạo tài khoản 🕓",
+      "user.i4 — Lấy thông tin người dùng Zalo ℹ️",
+      "user.IdCard — Lấy ID card người dùng Zalo 🎫",
+      "user.Qr — Lấy mã QR Zalo của người dùng 👤",
+      "user.Report — Báo cáo người dùng 👤",
+      "user.Uid — Lấy UID người dùng 🆔"
+    ],
+    "total": 6
+  },
+  "group": {
+    "commands": [
+      "group.I4 — Xem thông tin nhóm Zalo 👥",
+      "group.ID — Lấy ID nhóm 📊",
+      "group.Find — Tìm thông tin nhóm qua ID 🔎",
+      "group.GetID — Lấy ID từ link 🆔",
+      "group.GetLink — Lấy link mời nhóm 🔗",
+      "group.GetMultiLink — Lấy link mời nhiều nhóm 🔗",
+      "group.Member — Xem danh sách thành viên 👥",
+      "group.addMember — Danh sách thành viên (bản cũ) 👥",
+      "group.FindUser — Tìm thành viên theo tên 🔍",
+      "group.FindTag — Gắn thẻ thành viên 🔔",
+      "group.LinkFind — Tìm thành viên qua link 🔍",
+      "group.LinkTag — Gắn thẻ qua link nhóm 🔔",
+      "group.Msg — Xem cuộc trò chuyện nhóm 📜",
+      "group.Accept — Duyệt thành viên chờ ✅",
+      "group.List — Xem danh sách thành viên chờ ✅",
+      "group.Pending — Xem chi tiết thành viên chờ duyệt 👥",
+      "group.deny — Từ chối người dùng khỏi danh sách chờ 👥",
+      "group.BanUser — Xoá và chặn thành viên 🚫",
+      "group.Unlock — Mở khoá nhóm 🔄",
+      "group.UnbanUser — Gỡ cấm thành viên 🔓",
+      "group.Blocked — Danh sách thành viên bị khoá 👥",
+      "group.UnlockUser — Mở khoá người dùng hoặc nhóm 🔓",
+      "group.Avatar — Đổi avatar nhóm 🖼️",
+      "group.Stat — Thống kê nhóm 📊",
+      "group.DelMsg — Xoá 50 tin nhắn gần nhất 🗑️",
+      "group.Sos — Khoá nhóm khẩn cấp 📩",
+      "group.Creat — Tạo nhóm mới 👥",
+      "group.Del — Giải tán nhóm 🗑️",
+      "group.Cancel — Huỷ giải tán 👥"
+    ],
+    "total": 28
+  },
+  "bot": {
+    "commands": [
+      "bot.Accept — Chấp nhận kết bạn 1 người 🤝",
+      "bot.AddFriend — Mời tất cả thành viên trong nhóm 🤝",
+      "bot.AddFriendID — Mời 1 người dùng 🤝",
+      "bot.cancelrequest — Huỷ tiến trình kết bạn ❌",
+      "bot.FriendList — Danh sách bạn bè bot 📋",
+      "bot.frilist — Xem danh sách bạn bè 📩",
+      "bot.sentlist — Danh sách đã gửi kết bạn 📋",
+      "bot.rssentlist — Danh sách gửi yêu cầu 📩",
+      "bot.cancelfri — Huỷ yêu cầu 🗑️",
+      "bot.addfri — Gửi kết bạn ➕",
+      "bot.okfri — Chấp nhận kết bạn ✅",
+      "bot.delfri — Xoá bạn 🗑️",
+      "bot.friupdate — Cập nhật danh sách bạn 🔄",
+      "bot.searchfriend — Tìm bạn 🔎",
+      "bot.Block — Chặn người dùng 🚫",
+      "bot.Unblock — Gỡ chặn ✅",
+      "bot.blickedlist — Danh sách bị chặn 📩",
+      "bot.GroupList — Xem tất cả nhóm tham gia 📋",
+      "bot.Join — Tham gia nhóm qua link ➕",
+      "bot.Leave — Rời nhóm hiện tại ➖",
+      "bot.LeaveID — Rời nhóm theo ID ➖",
+      "bot.Invite — Mời tất cả bạn bè kèm danh sách bỏ qua 📩",
+      "bot.InviteAll — Mời tất cả bạn bè vào nhóm 📩",
+      "bot.KeyGroup — Lấy link mời nhóm bot làm phó nhóm 🔗",
+      "bot.SetPrefix — Đổi tiền tố lệnh ⚙️",
+      "bot.DelPrefix — Xoá tiền tố 🗑️",
+      "bot.Reset — Đặt lại cấu hình mặc định 🔄",
+      "bot.Rename — Đổi tên bot ✏️",
+      "bot.Info — Xem thông tin bot ℹ️",
+      "bot.Update — Cập nhật thông tin 🔄",
+      "bot.UpdateAvatar — Đổi avatar bot ✅",
+      "bot.Net — Kiểm tra tốc độ mạng 📶",
+      "bot.Sys — Xem thông tin phần cứng 💻",
+      "bot.Rs — Khởi động lại bot 🔄",
+      "bot.teach — Dạy bot trả lời 🎓",
+      "bot.Undo — Thu hồi tin nhắn nhóm 🗑️"
+    ],
+    "total": 36
+  },
+  "send": {
+    "commands": [
+      "send.All — Gửi tin nhắn tới tất cả nhóm Zalo 📢",
+      "send.GroupLink — Gửi tin nhắn qua link nhóm 📩",
+      "send.IDList — Gửi tin nhắn theo danh sách ID nhóm 📩",
+      "auto.Link — Tự động gửi danh sách link 📬",
+      "send.Link — Gửi link đã tạo tới các nhóm 🔗",
+      "send.Sms — Gửi tin nhắn trực tiếp cho 1 người 📩",
+      "send.User — Gửi nhiều tin nhắn cho 1 người 📩",
+      "send.Code — Gửi file code cho người được tag 💾",
+      "send.Pic — Gửi ảnh bằng link ảnh 🖼️",
+      "send.Stk — Gửi sticker cú đấm vào nhóm 🎨",
+      "call — Gọi điện tới số điện thoại hoặc Zalo 📞",
+      "createLink — Tạo link mời tham gia tuỳ chỉnh 🔗"
+    ],
+    "total": 12
+  },
+  "stk": {
+    "commands": [
+      "getStk — Tạo sticker từ ảnh/video 🎭",
+      "getStkxp — Tạo sticker xóa phông từ ảnh 🎭",
+      "getStkvd — Tạo sticker xóa phông từ video 🎭",
+      "getStkrt — Tạo sticker từ ảnh (RT) 🎭",
+      "delStk — Xóa sticker đã lưu 🗑️",
+      "showStk — Xem danh sách sticker 📋",
+      "stk — Gửi sticker đã lưu 🎭"
+    ],
+    "total": 7
+  },
+  "search": {
+    "commands": [
+      "accLQ — Lấy tài khoản Liên Quân miễn phí 📟",
+      "fbInfo — Lấy thông tin Facebook 🔍",
+      "gitHubI4 — Thông tin GitHub 📡",
+      "tT — Tìm/tải video TikTok 📊",
+      "tTInfo — Chi tiết video TikTok 🎥",
+      "ttInfo — Thông tin TikTok 📇",
+      "wiki — Tra cứu Wikipedia 🔍",
+      "ytb — Tìm/tải video YouTube 🔍",
+      "pin — Tìm ảnh Pinterest 🔍",
+      "pix — Tìm ảnh Pixil 🔍",
+      "gg — Tìm kiếm trên Google 🌐",
+      "amLich — Xem âm lịch theo ngày 📅",
+      "lich — Xem lịch hôm nay 📅",
+      "time — Xem giờ hiện tại 🕒",
+      "thoiTiet — Xem dự báo thời tiết ⛅",
+      "web.ss — Chụp màn hình web từ link 📸",
+      "web.html — Lấy mã HTML từ web 🔗",
+      "dinhGiaSDT — Định giá số điện thoại ⏬",
+      "phongThuy — Tra phong thủy số điện thoại 🌬️",
+      "phatNguoi — Tra cứu phạt nguội xe 🚓",
+      "tyGia — Tra tỷ giá ngoại tệ 📈"
+    ],
+    "total": 21
+  },
+  "spam": {
+    "commands": [
+      "spam.Call — Gọi liên tục tới số Zalo 📲",
+      "spam.Sms — Gửi nhiều cuộc gọi & tin nhắn đến số điện thoại 📞",
+      "spam.Hiden — Spam ẩn 📩",
+      "spam.GroupLink — Gửi tin nhắn nhiều lần qua link nhóm 📩",
+      "spam.Stk — Gửi nhiều sticker liên tục 🎨",
+      "spam.multiStk — Gửi sticker gây lag liên tục ⚠️",
+      "spam.StkGif — Gửi sticker gif gây lag nhóm ⚠️",
+      "spam.tagall — Tag tất cả thành viên và spam 📌",
+      "spam.random — Spam hỗn loạn với các thể loại spam 🎲",
+      "spam.Poll — Tạo khảo sát spam liên tục 📊",
+      "spam.Rename — Đổi tên nhóm liên tục ✏️",
+      "spam.Tag — Gắn thẻ + spam chửi trong nhóm 🔔",
+      "spam.TodoGroup — Gửi spam Todo vào nhóm 📋",
+      "spam.TodoUser — Gửi spam Todo tới người dùng 📋"
+    ],
+    "total": 14
+  },
+  "code": {
+    "commands": [
+      "code.Share — Chia sẻ mã nguồn dưới dạng file và link 📤",
+      "code.View — Xem mã nguồn của một lệnh cụ thể trong /modules 📜",
+      "src — Xem dữ liệu gốc của tin nhắn người dùng 🔎",
+      "srcReply — Xem dữ liệu gốc của tin nhắn được trả lời 🔎",
+      "code.Search — Tìm kiếm mã nguồn trong toàn bộ /project 🔍",
+      "code.SearchModules — Tìm kiếm mã nguồn trong /modules 🔍",
+      "code.Fullsearch — Tìm kiếm toàn bộ dự án 🔍",
+      "code.CmdMap — Bản đồ ánh xạ lệnh 📜",
+      "code.ProjectMap — Bản đồ ánh xạ project 📜",
+      "code.Replace — Thay chuỗi văn bản trong toàn bộ project 📜",
+      "code.AdminCheck — Kiểm tra danh sách module yêu cầu quyền admin 📋",
+      "code.AdminCheckAll — Xem quyền của tất cả file Python trong /modules 📋",
+      "code.Desc — Xem mô tả của tất cả file Python trong /modules 📋"
+    ],
+    "total": 13
+  },
+  "tag": {
+    "commands": [
+      "tag.All — Gắn thẻ tất cả thành viên trong nhóm 🔔",
+      "tag.AllMsg — Gắn thẻ tất cả kèm nội dung tùy chỉnh 🔔",
+      "tag.Mem — Gắn thẻ một thành viên cụ thể 🔔"
+    ],
+    "total": 3
+  },
+  "file": {
+    "commands": [
+      "up.CatBox — Tải file lên Catbox 📁",
+      "up.CatBox2 — Tải file lên Catbox lấy link 📁",
+      "up.Imgur — Tải ảnh lên Imgur ⏫",
+      "up.TmP — Tải file lên tmpfile 📂",
+      "up.json — Lưu link ảnh vào JSON 📊",
+      "up.Uguuse — Tải file lên uguu.se 📁",
+      "up.Foder — Upload toàn bộ thư mục lên Catbox 📤",
+      "dl — Tải file từ link bất kỳ ⏬",
+      "dl2 — Tải file từ link bất kỳ ⏬",
+      "dlmedia — Tải media từ link bất kỳ ⏬",
+      "down1 — Tải file từ link bất kỳ ⏬",
+      "checkLink — Kiểm tra trạng thái link 🎥",
+      "getLink — Chuyển ảnh/video thành link 🔗",
+      "getLinkTT — Lấy link video TikTok từ ID hoặc URL 🔗",
+      "ttDownloader — Tải video TikTok và lưu vào GainHay 📥",
+      "vid2WebP — Chuyển video sang WebP 🎥"
+    ],
+    "total": 16
+  },
+  "use": {
+    "commands": [
+      "addGroup — Thêm nhóm vào danh sách quản lý 👥",
+      "delGroup — Xóa nhóm khỏi danh sách quản lý ❌",
+      "listGroup — Xem danh sách các nhóm đang quản lý 📋",
+      "addBan — Cấm người dùng khỏi hệ thống 🙅‍♂️",
+      "delBan — Gỡ cấm người dùng 🔓",
+      "listBan — Xem danh sách người dùng bị cấm 📜",
+      "addBGroup — Thêm nhóm vào danh sách cấm 🚫",
+      "delBGroup — Gỡ cấm nhóm ✔️",
+      "listBGroup — Xem danh sách nhóm bị cấm 📑"
+    ],
+    "total": 9
+  },
+  "cmd": {
+    "commands": [
+      "cmd.close — Đóng một hoặc nhiều lệnh ⚙️",
+      "cmd.open — Mở một hoặc nhiều lệnh ⚙️",
+      "cmd.closeall — Đóng toàn bộ lệnh ⚙️",
+      "cmd.openall — Mở toàn bộ lệnh ⚙️",
+      "cmd.closeallsys — Đóng toàn bộ lệnh trừ hệ thống ⚙️",
+      "cmd.Mng — Quản lý lệnh trong hệ thống bot ⚙️",
+      "cmd.Rename — Đổi tên lệnh trong /modules ✏️",
+      "cmd.Sync — So sánh tên lệnh với tệp trong 'modules' 🔄"
+    ],
+    "total": 8
+  },
+  "checklink": {
+    "commands": [
+      "checkLink.addGroup — Thêm nhóm vào danh sách 🔓",
+      "checkLink.delGroup — Xóa nhóm khỏi danh sách 🔓",
+      "checkLink.listGroup — Xem danh sách 🔓",
+      "checkLink.start — Bắt đầu kiểm tra 🔓",
+      "checkLink.stop — Dừng kiểm tra 🔓",
+      "checkLink.now — Kiểm tra ngay 🔓"
+    ],
+    "total": 6
+  },
+  "ms": {
+    "commands": [
+      "ms.Scl — Nghe nhạc SoundCloud 🎵",
+      "ms.Nct — Nghe nhạc NCT 🎵",
+      "play.on — Bật danh sách nhạc ▶️",
+      "play.off — Tắt danh sách nhạc ▶️",
+      "scLoad — Tải nhạc SoundCloud ⏬",
+      "read — Đọc tin nhắn bằng giọng AI 🔊",
+      "voice — Chuyển văn bản thành giọng nói 🔊",
+      "getAudio — Tải audio từ link ⏬"
+    ],
+    "total": 8
+  },
+  "img": {
+    "commands": [
+      "create.BankCard — Tạo thẻ chuyển khoản tùy chỉnh 🔗",
+      "canva — Tạo thông báo tùy chỉnh 🎨",
+      "cover — Thiết kế ảnh bìa mạng xã hội 🏞️",
+      "thaThinh — Tạo ảnh thả thính 🍑",
+      "art — Tạo ảnh nghệ thuật từ văn bản 🎨",
+      "banTho — Tạo ảnh bàn thờ troll 🙏",
+      "text2Color — Tạo chữ màu tùy chỉnh 🔳",
+      "qr — Tạo mã QR nâng cao 🔳",
+      "qrCode — Tạo mã QR cơ bản 🔳",
+      "scanQR — Quét mã QR 🔍",
+      "img.enhance — Tăng độ nét ảnh 🔎",
+      "up — Cải thiện chất lượng ảnh bằng AI 📤",
+      "scanText — Trích xuất văn bản từ ảnh 🔎"
+    ],
+    "total": 13
+  },
+  "fun": {
+    "commands": [
+      "bot — Trò chuyện với bot AI 💬",
+      "chat — Chat GPT 4 💬",
+      "chat.clear — Hủy luồng trò chuyện hiện tại với Chat GPT 4 💬",
+      "gemini — Trò chuyện với Gemini 💬",
+      "gemini.clear — Hủy luồng trò chuyện hiện tại với Gemini 💬",
+      "dePtrai — Đánh giá độ đẹp trai 💪",
+      "gay — Đo độ “gay” vui 🌈",
+      "love — Bói tình duyên 💕",
+      "tarot — Xem bói Tarot hàng ngày 🃏",
+      "bangGia — Xem bảng giá dịch vụ bot 📜",
+      "day — Dạy bot nội bộ 🔗",
+      "mya — Dạy bot nội bộ 🔗"
+    ],
+    "total": 12
+  },
+  "auto": {
+    "commands": [
+      "auto.SendOn — Tự động gửi tin nhắn theo lịch 📬",
+      "auto.SendV2 — Tự động gửi link theo lịch 📬",
+      "autoimg — Tự động gửi ảnh theo lịch 📬",
+      "autostk — Tự động gửi stk theo lịch 📬",
+      "autolink — Gửi link ngay lập tức 📬",
+      "autors — Gửi link ngay lập tức 📬",
+      "reply.sharelink — Gửi link được reply đến toàn bộ nhóm 📬",
+      "quangcao — Quản lý quảng cáo ⚙️",
+      "addset — Thêm set mới ⚙️",
+      "sendset — Gửi tin theo set ⚙️",
+      "listsets — Danh sách set ⚙️",
+      "delset — Xoá set ⚙️"
+    ],
+    "total": 12
+  },
+  "tool": {
+    "commands": [
+      "checkapi — Kiểm tra API 🤖",
+      "checklink — Kiểm tra trạng thái link ✅",
+      "checknude — Kiểm tra nội dung nhạy cảm 🩷",
+      "convert — Chuyển đổi định dạng 🔄",
+      "huongdan — Hướng dẫn sử dụng 📜",
+      "rutgon.url — Rút gọn link 🔗",
+      "save — Lưu nội dung 💾"
+    ],
+    "total": 7
+  }
+}

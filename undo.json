@@ -1,0 +1,5023 @@
+[
+    {
+        "msgId": "7499692634590",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770179664128",
+        "msgType": "webchat",
+        "content": "@Hoàng Sơn c nghèo dùng bản free",
+        "params": null,
+        "time": "2026-02-04 04:34:22"
+    },
+    {
+        "msgId": "7499695638467",
+        "uidFrom": "8890277211339706757",
+        "cliMsgId": "1770179711204",
+        "msgType": "webchat",
+        "content": "@Lucy e cũng toàn dựa vào n làm việc nếu khó quá kk",
+        "params": null,
+        "time": "2026-02-04 04:35:09"
+    },
+    {
+        "msgId": "7499698292923",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770179751760",
+        "msgType": "webchat",
+        "content": "@Hoàng Sơn c hay dùng cho nó dịch ,với soạn hộ văn bản chỉ việc copy vs định dạng là xong",
+        "params": null,
+        "time": "2026-02-04 04:35:50"
+    },
+    {
+        "msgId": "7499704077536",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770179842067",
+        "msgType": "webchat",
+        "content": "@Hiếu Nguyễn thế thì chệu :>",
+        "params": null,
+        "time": "2026-02-04 04:37:20"
+    },
+    {
+        "msgId": "7499704286551",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770179846110",
+        "msgType": "webchat",
+        "content": "@Lucy chị ác với e 😢",
+        "params": null,
+        "time": "2026-02-04 04:37:24"
+    },
+    {
+        "msgId": "7499706035506",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770179872883",
+        "msgType": "webchat",
+        "content": "@Mika Trần ơ kè thấy e ngóng tết quá c kiếm điệu nhảy cho e tập dần mà",
+        "params": null,
+        "time": "2026-02-04 04:37:51"
+    },
+    {
+        "msgId": "7499707109901",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770179890281",
+        "msgType": "webchat",
+        "content": "@Lucy e phải múa lân e mới chịu",
+        "params": null,
+        "time": "2026-02-04 04:38:08"
+    },
+    {
+        "msgId": "7499707807651",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770179900602",
+        "msgType": "webchat",
+        "content": "@Mika Trần xe tăng lùi số",
+        "params": null,
+        "time": "2026-02-04 04:38:19"
+    },
+    {
+        "msgId": "7499707963550",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770179903055",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:38:21"
+    },
+    {
+        "msgId": "7499711516642",
+        "uidFrom": "1581441781584833815",
+        "cliMsgId": "1770179959174",
+        "msgType": "webchat",
+        "content": "@Lộc gọi chơi á",
+        "params": null,
+        "time": "2026-02-04 04:39:17"
+    },
+    {
+        "msgId": "7499716259826",
+        "uidFrom": "5568196759908139427",
+        "cliMsgId": "1770180033707",
+        "msgType": "webchat",
+        "content": "@Ngọc Nhi nhớ tui hả",
+        "params": null,
+        "time": "2026-02-04 04:40:31"
+    },
+    {
+        "msgId": "7499716692294",
+        "uidFrom": "9223094248031865370",
+        "cliMsgId": "1770180040608",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770174856991,
+                    "gMsgID": 7499366522691,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 04:40:38"
+    },
+    {
+        "msgId": "7499720073195",
+        "uidFrom": "9223094248031865370",
+        "cliMsgId": "1770180093910",
+        "msgType": "group.poll",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "",
+            "thumb": "",
+            "childnumber": 0,
+            "action": "vote",
+            "params": "{\"msg\":{\"vi\":\"%1$s tham gia cuộc bình chọn: %2$s\",\"en\":\"%1$s voted in the poll: %2$s\",\"my\":\"%1$s သည္မဲဇယား: %2$s တြင္မဲေပးခဲ့သည္\"},\"uid\":9223094248031865370,\"isAnonymous\":false,\"question\":\"Hiện trạng giao lưu giải Nữ lúc này :Nữ có trình nhưng vẫn thích nhờ Trai uýnh hộ.Mn góp ý giải đấu tối nay 4/2/2026.\",\"pollId\":572796634,\"groupId\":3671087029779761687,\"dName\":\"Đình Nghĩa\",\"pollVer\":1770180093950}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 04:41:32"
+    },
+    {
+        "msgId": "7499729444708",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180241461",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770179900602,
+                    "gMsgID": 7499707807651,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 04:43:59"
+    },
+    {
+        "msgId": "7499729869221",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180248073",
+        "msgType": "webchat",
+        "content": "@Lucy ối dồi ôi cj tôi",
+        "params": null,
+        "time": "2026-02-04 04:44:06"
+    },
+    {
+        "msgId": "7499739536572",
+        "uidFrom": "8890277211339706757",
+        "cliMsgId": "1770180400002",
+        "msgType": "webchat",
+        "content": "đúng vậy",
+        "params": null,
+        "time": "2026-02-04 04:46:38"
+    },
+    {
+        "msgId": "7499739699655",
+        "uidFrom": "5343298220347959234",
+        "cliMsgId": "1770180402635",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 98930,
+            "catId": 61900,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:46:40"
+    },
+    {
+        "msgId": "7499739865523",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180404586",
+        "msgType": "webchat",
+        "content": "@Mika Trần hay e mún điệu đẩy xe bò",
+        "params": null,
+        "time": "2026-02-04 04:46:43"
+    },
+    {
+        "msgId": "7499740062121",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180407527",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:46:46"
+    },
+    {
+        "msgId": "7499740661992",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180417761",
+        "msgType": "webchat",
+        "content": "@Lucy ê nha chị nha",
+        "params": null,
+        "time": "2026-02-04 04:46:55"
+    },
+    {
+        "msgId": "7499741483591",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180430736",
+        "msgType": "webchat",
+        "content": "Chỉ hư nek a @Thắng Nguyễn",
+        "params": null,
+        "time": "2026-02-04 04:47:08"
+    },
+    {
+        "msgId": "7499741787700",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180435498",
+        "msgType": "webchat",
+        "content": "A ơiiiiiiiiiiiiiii",
+        "params": null,
+        "time": "2026-02-04 04:47:13"
+    },
+    {
+        "msgId": "7499742466271",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180445596",
+        "msgType": "webchat",
+        "content": "@Mika Trần hahaha chơi mà méc",
+        "params": null,
+        "time": "2026-02-04 04:47:24"
+    },
+    {
+        "msgId": "7499742642491",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180448295",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:47:27"
+    },
+    {
+        "msgId": "7499744474481",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180477649",
+        "msgType": "webchat",
+        "content": "@Lucy e chơi dơ nhất box là cj iu 😂😂😂",
+        "params": null,
+        "time": "2026-02-04 04:47:55"
+    },
+    {
+        "msgId": "7499745945101",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180500074",
+        "msgType": "webchat",
+        "content": "@Mika Trần c đang nói mấy cái điệu nhảy trong video gửi cho e tập mà",
+        "params": null,
+        "time": "2026-02-04 04:48:18"
+    },
+    {
+        "msgId": "7499746301722",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180506010",
+        "msgType": "webchat",
+        "content": "có hư đâu ơ kè",
+        "params": null,
+        "time": "2026-02-04 04:48:24"
+    },
+    {
+        "msgId": "7499748142845",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180534735",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:48:53"
+    },
+    {
+        "msgId": "7499749108391",
+        "uidFrom": "1581441781584833815",
+        "cliMsgId": "1770180550758",
+        "msgType": "webchat",
+        "content": "@Lộc nhớ người bay",
+        "params": null,
+        "time": "2026-02-04 04:49:08"
+    },
+    {
+        "msgId": "7499750174966",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180567682",
+        "msgType": "webchat",
+        "content": "@Lucy thôi chị đừng có mà lươn lẹo",
+        "params": null,
+        "time": "2026-02-04 04:49:25"
+    },
+    {
+        "msgId": "7499750955112",
+        "uidFrom": "5568196759908139427",
+        "cliMsgId": "1770180574734",
+        "msgType": "chat.video.msg",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://video-stal-2.dlmd.me/gr/529ab7699ddd57830ecc/552198564850249082",
+            "thumb": "https://f62-zpg-r.zdn.vn/1805401420635847741/dc62a90deb0c65523c1d.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"fileSize\":3372853,\"video_height\":1180,\"video_width\":2556,\"video_rotation\":0,\"duration\":23000}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 04:49:38"
+    },
+    {
+        "msgId": "7499751227849",
+        "uidFrom": "5568196759908139427",
+        "cliMsgId": "1770180584328",
+        "msgType": "webchat",
+        "content": "@Ngọc Nhi",
+        "params": null,
+        "time": "2026-02-04 04:49:42"
+    },
+    {
+        "msgId": "7499752777507",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180608117",
+        "msgType": "webchat",
+        "content": "@Mika Trần e xem lại ik ,c chỉ đọc tên điệu nhảy thôi hok có hư nha",
+        "params": null,
+        "time": "2026-02-04 04:50:07"
+    },
+    {
+        "msgId": "7499753288878",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180616767",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770180608117,
+                    "gMsgID": 7499752777507,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 04:50:14"
+    },
+    {
+        "msgId": "7499753928368",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180626814",
+        "msgType": "webchat",
+        "content": "@Lucy e k biết j hết :> :> :>",
+        "params": null,
+        "time": "2026-02-04 04:50:24"
+    },
+    {
+        "msgId": "7499757989767",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180690301",
+        "msgType": "webchat",
+        "content": "@Mika Trần còn điệu chỉ tay lên trời hận đời vô đối .hợp vs e á",
+        "params": null,
+        "time": "2026-02-04 04:51:29"
+    },
+    {
+        "msgId": "7499758359056",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180696319",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21541,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:51:35"
+    },
+    {
+        "msgId": "7499760597808",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180732480",
+        "msgType": "webchat",
+        "content": "@Lucy ủa alooooo cj ơi",
+        "params": null,
+        "time": "2026-02-04 04:52:10"
+    },
+    {
+        "msgId": "7499765362983",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180807598",
+        "msgType": "webchat",
+        "content": "@Mika Trần chớ hok lẽ e thích điệu gà trống bới giun ,hay gội đầu dưới mưa",
+        "params": null,
+        "time": "2026-02-04 04:53:26"
+    },
+    {
+        "msgId": "7499765582420",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180811295",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:53:30"
+    },
+    {
+        "msgId": "7499766940188",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180833422",
+        "msgType": "webchat",
+        "content": "@Lucy s mà cj dữ dội quá v cj tôi hư ng rồi",
+        "params": null,
+        "time": "2026-02-04 04:53:51"
+    },
+    {
+        "msgId": "7499767081040",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180835680",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 46982,
+            "catId": 12003,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:53:53"
+    },
+    {
+        "msgId": "7499767733334",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180845392",
+        "msgType": "webchat",
+        "content": "@Mika Trần C thích điệu ve sầu thoát xác cơ",
+        "params": null,
+        "time": "2026-02-04 04:54:04"
+    },
+    {
+        "msgId": "7499767915714",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770180848294",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:54:07"
+    },
+    {
+        "msgId": "7499772362162",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770180919798",
+        "msgType": "webchat",
+        "content": "@Lucy  nam mô a di đà Lạt mika mới lớn",
+        "params": null,
+        "time": "2026-02-04 04:55:17"
+    },
+    {
+        "msgId": "7499778208535",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770181012271",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-17.zdn.vn/no/jpg/d464a8dbed6e27307e7f/58361090938927071.jpg",
+            "thumb": "https://photo-stal-17.zdn.vn/no/jpg/d464a8dbed6e27307e7f/58361090938927071.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":960,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 04:56:51"
+    },
+    {
+        "msgId": "7499782883403",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181087497",
+        "msgType": "webchat",
+        "content": "@Mika Trần c còn nhìu bất ngờ nhắm",
+        "params": null,
+        "time": "2026-02-04 04:58:06"
+    },
+    {
+        "msgId": "7499783100841",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181090960",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21541,
+            "catId": 10306,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:58:09"
+    },
+    {
+        "msgId": "7499783468086",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770181097592",
+        "msgType": "webchat",
+        "content": "@Lucy e sợ chị r",
+        "params": null,
+        "time": "2026-02-04 04:58:15"
+    },
+    {
+        "msgId": "7499783803895",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181103090",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 04:58:21"
+    },
+    {
+        "msgId": "7499787613803",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181164069",
+        "msgType": "webchat",
+        "content": "@Mika Trần c nhây nhắm ,mà bị a kìm thôi :>",
+        "params": null,
+        "time": "2026-02-04 04:59:23"
+    },
+    {
+        "msgId": "7499794381446",
+        "uidFrom": "5939732373974513291",
+        "cliMsgId": "1770181276101",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 18661,
+            "catId": 10166,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:01:14"
+    },
+    {
+        "msgId": "7499796841069",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770181317324",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770179112751,
+                    "gMsgID": 7499657319866,
+                    "msgType": 44
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:01:55"
+    },
+    {
+        "msgId": "7499798263036",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181340501",
+        "msgType": "webchat",
+        "content": "@Jun ế bạn học đc điệu nào chưa mà haha",
+        "params": null,
+        "time": "2026-02-04 05:02:19"
+    },
+    {
+        "msgId": "7499799194029",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770181357057",
+        "msgType": "webchat",
+        "content": "@Lucy toii  2 tiến 1 lùi😂😂",
+        "params": null,
+        "time": "2026-02-04 05:02:35"
+    },
+    {
+        "msgId": "7499799955552",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770181370132",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 46982,
+            "catId": 12003,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:02:48"
+    },
+    {
+        "msgId": "7499802727242",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181417562",
+        "msgType": "webchat",
+        "content": "@Jun quăng chài ,kéo lưới ik",
+        "params": null,
+        "time": "2026-02-04 05:03:35"
+    },
+    {
+        "msgId": "7499820639097",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770181734830",
+        "msgType": "webchat",
+        "content": "@Mika Trần  nô tì thử độc chết trước",
+        "params": null,
+        "time": "2026-02-04 05:08:52"
+    },
+    {
+        "msgId": "7499820711337",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770181736120",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 27182,
+            "catId": 10726,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:08:54"
+    },
+    {
+        "msgId": "7499821452783",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181749654",
+        "msgType": "webchat",
+        "content": "Quất ngựa trua phong",
+        "params": null,
+        "time": "2026-02-04 05:09:07"
+    },
+    {
+        "msgId": "7499821769173",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181755357",
+        "msgType": "webchat",
+        "content": "Quất ngựa truy phong",
+        "params": null,
+        "time": "2026-02-04 05:09:13"
+    },
+    {
+        "msgId": "7499821889411",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770181757660",
+        "msgType": "webchat",
+        "content": "Ăn cơm đi",
+        "params": null,
+        "time": "2026-02-04 05:09:15"
+    },
+    {
+        "msgId": "7499825154520",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181817442",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc giỏi nhề",
+        "params": null,
+        "time": "2026-02-04 05:10:15"
+    },
+    {
+        "msgId": "7499825631728",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770181826125",
+        "msgType": "webchat",
+        "content": "Thị phạm c coi nào",
+        "params": null,
+        "time": "2026-02-04 05:10:24"
+    },
+    {
+        "msgId": "7499826479573",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181841916",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770181817442,
+                    "gMsgID": 7499825154520,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:10:40"
+    },
+    {
+        "msgId": "7499826718360",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181846240",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770181826125,
+                    "gMsgID": 7499825631728,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:10:44"
+    },
+    {
+        "msgId": "7499827617356",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181862817",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:11:00"
+    },
+    {
+        "msgId": "7499830343990",
+        "uidFrom": "1581441781584833815",
+        "cliMsgId": "1770181913232",
+        "msgType": "webchat",
+        "content": "@Lộc thôi đi",
+        "params": null,
+        "time": "2026-02-04 05:11:51"
+    },
+    {
+        "msgId": "7499830609430",
+        "uidFrom": "1581441781584833815",
+        "cliMsgId": "1770181918170",
+        "msgType": "webchat",
+        "content": "Đừng có khoe",
+        "params": null,
+        "time": "2026-02-04 05:11:56"
+    },
+    {
+        "msgId": "7499833502350",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770181971815",
+        "msgType": "webchat",
+        "content": "@Lucy e guộc c mà",
+        "params": null,
+        "time": "2026-02-04 05:12:49"
+    },
+    {
+        "msgId": "7499836596848",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182029164",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 47631,
+            "catId": 12045,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:13:47"
+    },
+    {
+        "msgId": "7499839130725",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182076296",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45591,
+            "catId": 11917,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:14:34"
+    },
+    {
+        "msgId": "7499846287691",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182209545",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21528,
+            "catId": 10305,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:16:47"
+    },
+    {
+        "msgId": "7499847200116",
+        "uidFrom": "100897307748216195",
+        "cliMsgId": "1770182226923",
+        "msgType": "webchat",
+        "content": "@Jun :>",
+        "params": null,
+        "time": "2026-02-04 05:17:04"
+    },
+    {
+        "msgId": "7499851443626",
+        "uidFrom": "9223094248031865370",
+        "cliMsgId": "1770182306586",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc vụ kia là như nào đấy",
+        "params": null,
+        "time": "2026-02-04 05:18:24"
+    },
+    {
+        "msgId": "7499854229523",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182359406",
+        "msgType": "webchat",
+        "content": "@Đình Nghĩa phúc bt nma chuyện của box khác k nói ở đây",
+        "params": null,
+        "time": "2026-02-04 05:19:17"
+    },
+    {
+        "msgId": "7499857333283",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770182418341",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc c chưa hình dung ra e thị phạm đi",
+        "params": null,
+        "time": "2026-02-04 05:20:16"
+    },
+    {
+        "msgId": "7499858059335",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182432228",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770182418341,
+                    "gMsgID": 7499857333283,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:20:30"
+    },
+    {
+        "msgId": "7499859095790",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770182451822",
+        "msgType": "webchat",
+        "content": "@Bảo ??",
+        "params": null,
+        "time": "2026-02-04 05:20:49"
+    },
+    {
+        "msgId": "7499859412987",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182457840",
+        "msgType": "webchat",
+        "content": "@Lucy 2 người mới đc :-f :p /-showlove",
+        "params": null,
+        "time": "2026-02-04 05:20:55"
+    },
+    {
+        "msgId": "7499859767090",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770182464604",
+        "msgType": "webchat",
+        "content": "@Đình Nghĩa chịuuuu",
+        "params": null,
+        "time": "2026-02-04 05:21:02"
+    },
+    {
+        "msgId": "7499861871772",
+        "uidFrom": "5568196759908139427",
+        "cliMsgId": "1770182504741",
+        "msgType": "webchat",
+        "content": "@Ngọc Nhi qua tui gánh nhi mấy game r còn gi",
+        "params": null,
+        "time": "2026-02-04 05:21:42"
+    },
+    {
+        "msgId": "7499868067672",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770182623489",
+        "msgType": "webchat",
+        "content": "tuananh194.64\nCubo2016@99\nLUEWGZT4WIFSLMEH",
+        "params": null,
+        "time": "2026-02-04 05:23:41"
+    },
+    {
+        "msgId": "7499868251170",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770182627004",
+        "msgType": "webchat",
+        "content": "3969",
+        "params": null,
+        "time": "2026-02-04 05:23:45"
+    },
+    {
+        "msgId": "7499869810506",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182657036",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc gì dọ kể nghe",
+        "params": null,
+        "time": "2026-02-04 05:24:15"
+    },
+    {
+        "msgId": "7499870109846",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182662892",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45592,
+            "catId": 11917,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:24:20"
+    },
+    {
+        "msgId": "7499870287676",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182666355",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770182657036,
+                    "gMsgID": 7499869810506,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:24:24"
+    },
+    {
+        "msgId": "7499871547592",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182690501",
+        "msgType": "webchat",
+        "content": "@Bé Cam à anh iu em :-f /-showlove :p",
+        "params": null,
+        "time": "2026-02-04 05:24:48"
+    },
+    {
+        "msgId": "7499871688114",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770182693201",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:24:51"
+    },
+    {
+        "msgId": "7499872417912",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182702232",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-11.zdn.vn/gr/jpg/f2970471a1c56b9b32d4/4540442695436496697.jpg",
+            "thumb": "https://photo-stal-11.zdn.vn/gr/jpg/f2970471a1c56b9b32d4/4540442695436496697.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":1284,\"height\":1080,\"hd\":\"https:\\/\\/photo-stal-11.zdn.vn\\/gr\\/jpg\\/f2970471a1c56b9b32d4\\/4540442695436496697.jpg\",\"is_group_layout\":0,\"contentId\":\"1000009744\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 05:25:05"
+    },
+    {
+        "msgId": "7499872781082",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182714285",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc",
+        "params": null,
+        "time": "2026-02-04 05:25:12"
+    },
+    {
+        "msgId": "7499872932898",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182717237",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 47166,
+            "catId": 12013,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:25:15"
+    },
+    {
+        "msgId": "7499873735419",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770182732574",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21514,
+            "catId": 10305,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:25:30"
+    },
+    {
+        "msgId": "7499876485571",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770182786418",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 50617,
+            "catId": 12658,
+            "type": 7,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:26:24"
+    },
+    {
+        "msgId": "7499876992439",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770182796079",
+        "msgType": "webchat",
+        "content": "Ngủ đi mn",
+        "params": null,
+        "time": "2026-02-04 05:26:34"
+    },
+    {
+        "msgId": "7499878262282",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182820663",
+        "msgType": "webchat",
+        "content": "@Puu xỉn òi",
+        "params": null,
+        "time": "2026-02-04 05:26:58"
+    },
+    {
+        "msgId": "7499878394380",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182823292",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 22148,
+            "catId": 10340,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:27:01"
+    },
+    {
+        "msgId": "7499878623253",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770182828095",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc đại đại đi còn lại c tưởng tượng",
+        "params": null,
+        "time": "2026-02-04 05:27:06"
+    },
+    {
+        "msgId": "7499879089776",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770182836946",
+        "msgType": "webchat",
+        "content": "@Bé Cam Chưa cuối tuần mà đã xỉn òi hả",
+        "params": null,
+        "time": "2026-02-04 05:27:15"
+    },
+    {
+        "msgId": "7499882190605",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770182897859",
+        "msgType": "webchat",
+        "content": "@Puu cần gì phải cúi tuần",
+        "params": null,
+        "time": "2026-02-04 05:28:15"
+    },
+    {
+        "msgId": "7499892368516",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183100001",
+        "msgType": "webchat",
+        "content": "@Bé Cam Xỉn òi ngủ đi, tối dậy quậy",
+        "params": null,
+        "time": "2026-02-04 05:31:38"
+    },
+    {
+        "msgId": "7499893462453",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183122016",
+        "msgType": "webchat",
+        "content": "@Yumi đâu rồi còn sống không",
+        "params": null,
+        "time": "2026-02-04 05:32:00"
+    },
+    {
+        "msgId": "7499894404387",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183141179",
+        "msgType": "webchat",
+        "content": "@Yumi ngủ mà còn vãi",
+        "params": null,
+        "time": "2026-02-04 05:32:19"
+    },
+    {
+        "msgId": "7499896822218",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183190614",
+        "msgType": "webchat",
+        "content": "@Yumi mày xấu quá tao không nói chuyện với mày",
+        "params": null,
+        "time": "2026-02-04 05:33:08"
+    },
+    {
+        "msgId": "7499901068641",
+        "uidFrom": "2239671603728630257",
+        "cliMsgId": "1770183277881",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770183193031,
+                    "gMsgID": 7499897019456,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "317525797",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:34:36"
+    },
+    {
+        "msgId": "7499901865063",
+        "uidFrom": "2239671603728630257",
+        "cliMsgId": "1770183294275",
+        "msgType": "webchat",
+        "content": "@Yumi Hôm qua Yumi còn yêu thỏ lắm mà sao nay chê rồi",
+        "params": null,
+        "time": "2026-02-04 05:34:52"
+    },
+    {
+        "msgId": "7499902416663",
+        "uidFrom": "2239671603728630257",
+        "cliMsgId": "1770183305856",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770183295672,
+                    "gMsgID": 7499901974642,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "317525797",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:35:04"
+    },
+    {
+        "msgId": "7499902766702",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183313224",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770183295672,
+                    "gMsgID": 7499901974642,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "317525797",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:35:11"
+    },
+    {
+        "msgId": "7499903327267",
+        "uidFrom": "2239671603728630257",
+        "cliMsgId": "1770183324888",
+        "msgType": "webchat",
+        "content": "@Yumi Mày xấu người xấu cả nết luôn , nghỉ chơi mẹ đi",
+        "params": null,
+        "time": "2026-02-04 05:35:22"
+    },
+    {
+        "msgId": "7499903894136",
+        "uidFrom": "2239671603728630257",
+        "cliMsgId": "1770183336873",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770183325711,
+                    "gMsgID": 7499903438729,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "317525797",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 05:35:34"
+    },
+    {
+        "msgId": "7499903946674",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183337812",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317525797",
+            "rMsg": [
+                {
+                    "cMsgID": 1770183325711,
+                    "gMsgID": 7499903438729,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:35:35"
+    },
+    {
+        "msgId": "7499904245372",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183343849",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 1111,
+            "catId": 50,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:35:42"
+    },
+    {
+        "msgId": "7499904350801",
+        "uidFrom": "2239671603728630257",
+        "cliMsgId": "1770183346372",
+        "msgType": "webchat",
+        "content": "sợ nó quá",
+        "params": null,
+        "time": "2026-02-04 05:35:44"
+    },
+    {
+        "msgId": "7499904764841",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183355109",
+        "msgType": "webchat",
+        "content": "@Yumi ăn lồn k",
+        "params": null,
+        "time": "2026-02-04 05:35:53"
+    },
+    {
+        "msgId": "7499904925464",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183358455",
+        "msgType": "webchat",
+        "content": ":>",
+        "params": null,
+        "time": "2026-02-04 05:35:56"
+    },
+    {
+        "msgId": "7499905303367",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183366382",
+        "msgType": "webchat",
+        "content": "@Yumi cm xé loll mày h",
+        "params": null,
+        "time": "2026-02-04 05:36:04"
+    },
+    {
+        "msgId": "7499906009276",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183381187",
+        "msgType": "webchat",
+        "content": "@Yumi xé liền hộ toy",
+        "params": null,
+        "time": "2026-02-04 05:36:19"
+    },
+    {
+        "msgId": "7499906434278",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183390165",
+        "msgType": "webchat",
+        "content": "@Yumi t thách á",
+        "params": null,
+        "time": "2026-02-04 05:36:28"
+    },
+    {
+        "msgId": "7499907773741",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183418260",
+        "msgType": "webchat",
+        "content": "@Yumi đấm hộ toy cái",
+        "params": null,
+        "time": "2026-02-04 05:36:56"
+    },
+    {
+        "msgId": "7499908314124",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183429618",
+        "msgType": "webchat",
+        "content": "@Yumi  đâu đấm chưa",
+        "params": null,
+        "time": "2026-02-04 05:37:07"
+    },
+    {
+        "msgId": "7499908795872",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183439801",
+        "msgType": "webchat",
+        "content": "Thôi",
+        "params": null,
+        "time": "2026-02-04 05:37:17"
+    },
+    {
+        "msgId": "7499909015014",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183444387",
+        "msgType": "webchat",
+        "content": "-))",
+        "params": null,
+        "time": "2026-02-04 05:37:22"
+    },
+    {
+        "msgId": "7499909509101",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183454868",
+        "msgType": "webchat",
+        "content": "Bot set style layloi",
+        "params": null,
+        "time": "2026-02-04 05:37:32"
+    },
+    {
+        "msgId": "7499909750913",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183459986",
+        "msgType": "webchat",
+        "content": "Bot clear",
+        "params": null,
+        "time": "2026-02-04 05:37:38"
+    },
+    {
+        "msgId": "7499910400104",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183473786",
+        "msgType": "webchat",
+        "content": "Yumi nhớ Puu không ??",
+        "params": null,
+        "time": "2026-02-04 05:37:51"
+    },
+    {
+        "msgId": "7499911284392",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183492672",
+        "msgType": "webchat",
+        "content": "@Yumi Nhưng giờ Puu buồn ngủ rồi",
+        "params": null,
+        "time": "2026-02-04 05:38:10"
+    },
+    {
+        "msgId": "7499911940452",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183506706",
+        "msgType": "webchat",
+        "content": "@Yumi Oki nhé , đi ngủ nhé",
+        "params": null,
+        "time": "2026-02-04 05:38:24"
+    },
+    {
+        "msgId": "7499912067554",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183509457",
+        "msgType": "webchat",
+        "content": "@Yumi Yumi yêu dấu ơi",
+        "params": null,
+        "time": "2026-02-04 05:38:27"
+    },
+    {
+        "msgId": "7499913487633",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183540005",
+        "msgType": "webchat",
+        "content": "@Yumi Yumi là Ny embe thỏ nha nói chuyện cho đoàng hoàng",
+        "params": null,
+        "time": "2026-02-04 05:38:58"
+    },
+    {
+        "msgId": "7499913600799",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770183542485",
+        "msgType": "webchat",
+        "content": "Bot set style cucsuc",
+        "params": null,
+        "time": "2026-02-04 05:39:00"
+    },
+    {
+        "msgId": "7499913935869",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770183549697",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "431891312",
+            "rMsg": [
+                {
+                    "cMsgID": 1770183540005,
+                    "gMsgID": 7499913487633,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:39:07"
+    },
+    {
+        "msgId": "7499914078685",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770183552796",
+        "msgType": "webchat",
+        "content": "Bot clear",
+        "params": null,
+        "time": "2026-02-04 05:39:10"
+    },
+    {
+        "msgId": "7499914364552",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183558854",
+        "msgType": "webchat",
+        "content": "@Yumi nói sai rồi",
+        "params": null,
+        "time": "2026-02-04 05:39:16"
+    },
+    {
+        "msgId": "7499915784580",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183589601",
+        "msgType": "webchat",
+        "content": "Ủaaaa",
+        "params": null,
+        "time": "2026-02-04 05:39:47"
+    },
+    {
+        "msgId": "7499916064783",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183595627",
+        "msgType": "webchat",
+        "content": "Yumi sống choá",
+        "params": null,
+        "time": "2026-02-04 05:39:53"
+    },
+    {
+        "msgId": "7499916077685",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183595898",
+        "msgType": "webchat",
+        "content": "Anh thắng lại trêu òi",
+        "params": null,
+        "time": "2026-02-04 05:39:53"
+    },
+    {
+        "msgId": "7499916142264",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183597365",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 46964,
+            "catId": 12003,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:39:55"
+    },
+    {
+        "msgId": "7499916373986",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183602347",
+        "msgType": "webchat",
+        "content": "Anh @Thắng Nguyễn",
+        "params": null,
+        "time": "2026-02-04 05:40:00"
+    },
+    {
+        "msgId": "7499916972416",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183615302",
+        "msgType": "webchat",
+        "content": "@Yumi là mày sống chó",
+        "params": null,
+        "time": "2026-02-04 05:40:13"
+    },
+    {
+        "msgId": "7499917983930",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183637219",
+        "msgType": "webchat",
+        "content": "@Yumi tao sống tốt không như mày",
+        "params": null,
+        "time": "2026-02-04 05:40:35"
+    },
+    {
+        "msgId": "7499918641990",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183651518",
+        "msgType": "webchat",
+        "content": "@Yumi tại mày ngu",
+        "params": null,
+        "time": "2026-02-04 05:40:49"
+    },
+    {
+        "msgId": "7499920967260",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183702172",
+        "msgType": "webchat",
+        "content": "@Yumi tao không nói chuyện với đồ ngu",
+        "params": null,
+        "time": "2026-02-04 05:41:40"
+    },
+    {
+        "msgId": "7499922282327",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183730967",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770183703396,
+                    "gMsgID": 7499921103192,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "317525797",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 05:42:09"
+    },
+    {
+        "msgId": "7499923767183",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770183763596",
+        "msgType": "webchat",
+        "content": "@Yumi biến",
+        "params": null,
+        "time": "2026-02-04 05:42:41"
+    },
+    {
+        "msgId": "7499926346073",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770183820681",
+        "msgType": "webchat",
+        "content": "@Puu giờ quậy cũm đựt mờ",
+        "params": null,
+        "time": "2026-02-04 05:43:38"
+    },
+    {
+        "msgId": "7499930898812",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770183922599",
+        "msgType": "webchat",
+        "content": "@Bé Cam Giờ mn ngủ hết người để quậy òi",
+        "params": null,
+        "time": "2026-02-04 05:45:20"
+    },
+    {
+        "msgId": "7499934040717",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770183993547",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317525797",
+            "rMsg": [
+                {
+                    "cMsgID": 1770183764475,
+                    "gMsgID": 7499923867679,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:46:31"
+    },
+    {
+        "msgId": "7499934633465",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184007149",
+        "msgType": "webchat",
+        "content": "@Bé Cam về ôm a ngủ thoai",
+        "params": null,
+        "time": "2026-02-04 05:46:45"
+    },
+    {
+        "msgId": "7499934701122",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184008588",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:46:46"
+    },
+    {
+        "msgId": "7499934846220",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184011865",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184007149,
+                    "gMsgID": 7499934633465,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:46:49"
+    },
+    {
+        "msgId": "7499934885727",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184012754",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770182820663,
+                    "gMsgID": 7499878262282,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:46:50"
+    },
+    {
+        "msgId": "7499934998513",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184015369",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770182828095,
+                    "gMsgID": 7499878623253,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:46:53"
+    },
+    {
+        "msgId": "7499935016005",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184015715",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc ồ weo",
+        "params": null,
+        "time": "2026-02-04 05:46:53"
+    },
+    {
+        "msgId": "7499935224360",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184020336",
+        "msgType": "webchat",
+        "content": "Read lcc",
+        "params": null,
+        "time": "2026-02-04 05:46:58"
+    },
+    {
+        "msgId": "7499936114119",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184040604",
+        "msgType": "webchat",
+        "content": "@Lucy nó na na đót gy",
+        "params": null,
+        "time": "2026-02-04 05:47:18"
+    },
+    {
+        "msgId": "7499936381607",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184046767",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770182897859,
+                    "gMsgID": 7499882190605,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:47:24"
+    },
+    {
+        "msgId": "7499937469827",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184071476",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc định mệnh c gửi điệu nhảy tết ,e nghĩ sang cái qq gì đấy",
+        "params": null,
+        "time": "2026-02-04 05:47:49"
+    },
+    {
+        "msgId": "7499937535286",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184073058",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770183820681,
+                    "gMsgID": 7499926346073,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:47:51"
+    },
+    {
+        "msgId": "7499937679883",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184076354",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184015715,
+                    "gMsgID": 7499935016005,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:47:54"
+    },
+    {
+        "msgId": "7499938171481",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184087533",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184071476,
+                    "gMsgID": 7499937469827,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:48:05"
+    },
+    {
+        "msgId": "7499938593623",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184097265",
+        "msgType": "webchat",
+        "content": "@Jun mé con tó hà",
+        "params": null,
+        "time": "2026-02-04 05:48:15"
+    },
+    {
+        "msgId": "7499938694290",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184099486",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 46967,
+            "catId": 12003,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:48:17"
+    },
+    {
+        "msgId": "7499938933247",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184105091",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184040604,
+                    "gMsgID": 7499936114119,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:48:23"
+    },
+    {
+        "msgId": "7499939179898",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184110693",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184097265,
+                    "gMsgID": 7499938593623,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:48:28"
+    },
+    {
+        "msgId": "7499939277301",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184112850",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc haha",
+        "params": null,
+        "time": "2026-02-04 05:48:30"
+    },
+    {
+        "msgId": "7499940727434",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184146229",
+        "msgType": "webchat",
+        "content": "@Lucy nhảy trên giường ô",
+        "params": null,
+        "time": "2026-02-04 05:49:04"
+    },
+    {
+        "msgId": "7499940837192",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184148771",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:49:06"
+    },
+    {
+        "msgId": "7499941402461",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184161778",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184112850,
+                    "gMsgID": 7499939277301,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:49:19"
+    },
+    {
+        "msgId": "7499943175578",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184202502",
+        "msgType": "webchat",
+        "content": "@Jun để e vô kia xem có nó bên đấy k :-h",
+        "params": null,
+        "time": "2026-02-04 05:50:00"
+    },
+    {
+        "msgId": "7499943274078",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184204811",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 38359,
+            "catId": 11454,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:50:02"
+    },
+    {
+        "msgId": "7499943814376",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184217185",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184202502,
+                    "gMsgID": 7499943175578,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:50:15"
+    },
+    {
+        "msgId": "7499943889396",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184218981",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184146229,
+                    "gMsgID": 7499940727434,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:50:16"
+    },
+    {
+        "msgId": "7499943965791",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184220719",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 33784,
+            "catId": 11130,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:50:18"
+    },
+    {
+        "msgId": "7499944602022",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184235291",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc ai dọ",
+        "params": null,
+        "time": "2026-02-04 05:50:33"
+    },
+    {
+        "msgId": "7499944699780",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184237581",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45591,
+            "catId": 11917,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:50:35"
+    },
+    {
+        "msgId": "7499945899920",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184265329",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184235291,
+                    "gMsgID": 7499944602022,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:51:03"
+    },
+    {
+        "msgId": "7499946542570",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184280158",
+        "msgType": "webchat",
+        "content": "@Bé Cam à con tó hà á /-showlove",
+        "params": null,
+        "time": "2026-02-04 05:51:18"
+    },
+    {
+        "msgId": "7499947310017",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184297985",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 31801,
+            "catId": 11020,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:51:35"
+    },
+    {
+        "msgId": "7499949910620",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184358003",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc ngta quẩy nhạc tết",
+        "params": null,
+        "time": "2026-02-04 05:52:36"
+    },
+    {
+        "msgId": "7499950315319",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184367520",
+        "msgType": "webchat",
+        "content": "Cậu đòi nhảy trên giường",
+        "params": null,
+        "time": "2026-02-04 05:52:45"
+    },
+    {
+        "msgId": "7499950459956",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184370970",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184367520,
+                    "gMsgID": 7499950315319,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:52:49"
+    },
+    {
+        "msgId": "7499950695717",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184376425",
+        "msgType": "webchat",
+        "content": "Chịu cậu",
+        "params": null,
+        "time": "2026-02-04 05:52:54"
+    },
+    {
+        "msgId": "7499950814952",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184379147",
+        "msgType": "webchat",
+        "content": "@Bé Cam e ưi e dậy lại ik",
+        "params": null,
+        "time": "2026-02-04 05:52:57"
+    },
+    {
+        "msgId": "7499952371306",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184415547",
+        "msgType": "webchat",
+        "content": "@Lucy bỏ thùng xốp đi chị",
+        "params": null,
+        "time": "2026-02-04 05:53:33"
+    },
+    {
+        "msgId": "7499952632410",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184421771",
+        "msgType": "webchat",
+        "content": "E cần đổi setl",
+        "params": null,
+        "time": "2026-02-04 05:53:39"
+    },
+    {
+        "msgId": "7499953149711",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184433887",
+        "msgType": "webchat",
+        "content": "Bình giấm chua này bị đổ r",
+        "params": null,
+        "time": "2026-02-04 05:53:51"
+    },
+    {
+        "msgId": "7499953384477",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184439400",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 47631,
+            "catId": 12045,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:53:57"
+    },
+    {
+        "msgId": "7499953411548",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184440021",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184367520,
+                    "gMsgID": 7499950315319,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:53:58"
+    },
+    {
+        "msgId": "7499953788767",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184448869",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184358003,
+                    "gMsgID": 7499949910620,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:54:06"
+    },
+    {
+        "msgId": "7499954440925",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184464112",
+        "msgType": "webchat",
+        "content": "@Lucy giường cũng là sân khấu mà",
+        "params": null,
+        "time": "2026-02-04 05:54:22"
+    },
+    {
+        "msgId": "7499954517336",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184465930",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:54:23"
+    },
+    {
+        "msgId": "7499954712498",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184470458",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184379147,
+                    "gMsgID": 7499950814952,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:54:28"
+    },
+    {
+        "msgId": "7499954784422",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184472206",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184415547,
+                    "gMsgID": 7499952371306,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:54:30"
+    },
+    {
+        "msgId": "7499955194638",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184481811",
+        "msgType": "webchat",
+        "content": "@Bé Cam khom choa /-showlove",
+        "params": null,
+        "time": "2026-02-04 05:54:39"
+    },
+    {
+        "msgId": "7499955492546",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184488812",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184421771,
+                    "gMsgID": 7499952632410,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:54:46"
+    },
+    {
+        "msgId": "7499955591542",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184491071",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184433887,
+                    "gMsgID": 7499953149711,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:54:49"
+    },
+    {
+        "msgId": "7499958430072",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184557366",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc k có quyền ý kiến",
+        "params": null,
+        "time": "2026-02-04 05:55:55"
+    },
+    {
+        "msgId": "7499958545966",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184560093",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21541,
+            "catId": 10306,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:55:58"
+    },
+    {
+        "msgId": "7499958833663",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184566821",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184557366,
+                    "gMsgID": 7499958430072,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:56:04"
+    },
+    {
+        "msgId": "7499959285544",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184577291",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 50630,
+            "catId": 12658,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:56:15"
+    },
+    {
+        "msgId": "7499960584613",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184607611",
+        "msgType": "webchat",
+        "content": "@Bé Cam chuyển hộ khẩu /-showlove",
+        "params": null,
+        "time": "2026-02-04 05:56:45"
+    },
+    {
+        "msgId": "7499960732529",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184611009",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc trẻ con lo học đi",
+        "params": null,
+        "time": "2026-02-04 05:56:49"
+    },
+    {
+        "msgId": "7499961171691",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770184621247",
+        "msgType": "webchat",
+        "content": "Sắp đi thi",
+        "params": null,
+        "time": "2026-02-04 05:56:59"
+    },
+    {
+        "msgId": "7499961322684",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184624907",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770184607611,
+                    "gMsgID": 7499960584613,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 05:57:02"
+    },
+    {
+        "msgId": "7499961606991",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770184631464",
+        "msgType": "webchat",
+        "content": "Học lý thuyết k nhớ 1 câu gì",
+        "params": null,
+        "time": "2026-02-04 05:57:09"
+    },
+    {
+        "msgId": "7499961882386",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770184637928",
+        "msgType": "webchat",
+        "content": ":')",
+        "params": null,
+        "time": "2026-02-04 05:57:16"
+    },
+    {
+        "msgId": "7499961988051",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184640511",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184611009,
+                    "gMsgID": 7499960732529,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 05:57:18"
+    },
+    {
+        "msgId": "7499962991040",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184663907",
+        "msgType": "webchat",
+        "content": "@Lucy đúm đúm",
+        "params": null,
+        "time": "2026-02-04 05:57:41"
+    },
+    {
+        "msgId": "7499963412632",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184673695",
+        "msgType": "webchat",
+        "content": "Nít nôi yêu với chả đương",
+        "params": null,
+        "time": "2026-02-04 05:57:51"
+    },
+    {
+        "msgId": "7499963559982",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184677190",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45591,
+            "catId": 11917,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:57:55"
+    },
+    {
+        "msgId": "7499964464216",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184698179",
+        "msgType": "webchat",
+        "content": "Giường vs khấu lik ta lik tik",
+        "params": null,
+        "time": "2026-02-04 05:58:16"
+    },
+    {
+        "msgId": "7499965892102",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184731625",
+        "msgType": "webchat",
+        "content": "Học hành k lo",
+        "params": null,
+        "time": "2026-02-04 05:58:49"
+    },
+    {
+        "msgId": "7499966433899",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184744287",
+        "msgType": "webchat",
+        "content": "Vớ va vớ vẩn",
+        "params": null,
+        "time": "2026-02-04 05:59:02"
+    },
+    {
+        "msgId": "7499966940650",
+        "uidFrom": "1581441781584833815",
+        "cliMsgId": "1770184756169",
+        "msgType": "webchat",
+        "content": "@Lộc có 2 game à",
+        "params": null,
+        "time": "2026-02-04 05:59:14"
+    },
+    {
+        "msgId": "7499967926519",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184779313",
+        "msgType": "webchat",
+        "content": "@Bé Cam Cốc cho to đầu bgio e nhờ",
+        "params": null,
+        "time": "2026-02-04 05:59:37"
+    },
+    {
+        "msgId": "7499968144325",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184784195",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21538,
+            "catId": 10306,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 05:59:42"
+    },
+    {
+        "msgId": "7499968713851",
+        "uidFrom": "5568196759908139427",
+        "cliMsgId": "1770184797577",
+        "msgType": "webchat",
+        "content": "@Ngọc Nhi 3 game mà",
+        "params": null,
+        "time": "2026-02-04 05:59:55"
+    },
+    {
+        "msgId": "7499968935034",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184802682",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184779313,
+                    "gMsgID": 7499967926519,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:00"
+    },
+    {
+        "msgId": "7499969058778",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184805535",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184744287,
+                    "gMsgID": 7499966433899,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:03"
+    },
+    {
+        "msgId": "7499969181390",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184808397",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184731625,
+                    "gMsgID": 7499965892102,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:06"
+    },
+    {
+        "msgId": "7499969236324",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770184809665",
+        "msgType": "webchat",
+        "content": "@Lucy no đòn",
+        "params": null,
+        "time": "2026-02-04 06:00:07"
+    },
+    {
+        "msgId": "7499969258822",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184810137",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184698179,
+                    "gMsgID": 7499964464216,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:08"
+    },
+    {
+        "msgId": "7499969576720",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184817385",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 50630,
+            "catId": 12658,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:15"
+    },
+    {
+        "msgId": "7499969781878",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184822053",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 46967,
+            "catId": 12003,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:20"
+    },
+    {
+        "msgId": "7499969974262",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184826488",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184809665,
+                    "gMsgID": 7499969236324,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:00:24"
+    },
+    {
+        "msgId": "7499973000115",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770184895437",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc đọc ghim bình chọn chưa",
+        "params": null,
+        "time": "2026-02-04 06:01:33"
+    },
+    {
+        "msgId": "7499973853108",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184915059",
+        "msgType": "webchat",
+        "content": "@Lucy e bình chọn roài",
+        "params": null,
+        "time": "2026-02-04 06:01:53"
+    },
+    {
+        "msgId": "7499974790490",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184936506",
+        "msgType": "webchat",
+        "content": "Nma bình chọn đó là ý kiến mà",
+        "params": null,
+        "time": "2026-02-04 06:02:14"
+    },
+    {
+        "msgId": "7499975740105",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184958079",
+        "msgType": "webchat",
+        "content": "Có phải vote đánh đâu :-f",
+        "params": null,
+        "time": "2026-02-04 06:02:36"
+    },
+    {
+        "msgId": "7499975777201",
+        "uidFrom": "6105932274325070425",
+        "cliMsgId": "1770184958993",
+        "msgType": "group.poll",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "",
+            "thumb": "",
+            "childnumber": 0,
+            "action": "vote",
+            "params": "{\"msg\":{\"vi\":\"%1$s tham gia cuộc bình chọn: %2$s\",\"en\":\"%1$s voted in the poll: %2$s\",\"my\":\"%1$s သည္မဲဇယား: %2$s တြင္မဲေပးခဲ့သည္\"},\"uid\":6105932274325070425,\"isAnonymous\":false,\"question\":\"Hiện trạng giao lưu giải Nữ lúc này :Nữ có trình nhưng vẫn thích nhờ Trai uýnh hộ.Mn góp ý giải đấu tối nay 4/2/2026.\",\"pollId\":572796634,\"groupId\":3671087029779761687,\"dName\":\"Thỏ\",\"pollVer\":1770184958986}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:02:36"
+    },
+    {
+        "msgId": "7499976436055",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184973999",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184895437,
+                    "gMsgID": 7499973000115,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:02:52"
+    },
+    {
+        "msgId": "7499976577225",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184977186",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184663907,
+                    "gMsgID": 7499962991040,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:02:55"
+    },
+    {
+        "msgId": "7499976654579",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184978866",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "317359695",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184673695,
+                    "gMsgID": 7499963412632,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:02:56"
+    },
+    {
+        "msgId": "7499976798680",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184982114",
+        "msgType": "webchat",
+        "content": "Tối nay có giải mà",
+        "params": null,
+        "time": "2026-02-04 06:03:00"
+    },
+    {
+        "msgId": "7499977032684",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184987423",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc",
+        "params": null,
+        "time": "2026-02-04 06:03:05"
+    },
+    {
+        "msgId": "7499977279699",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770184992978",
+        "msgType": "webchat",
+        "content": "Đọc kĩ giải tối nay 4-2",
+        "params": null,
+        "time": "2026-02-04 06:03:10"
+    },
+    {
+        "msgId": "7499977411004",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770184995977",
+        "msgType": "webchat",
+        "content": "@Jun e bic",
+        "params": null,
+        "time": "2026-02-04 06:03:14"
+    },
+    {
+        "msgId": "7499977821431",
+        "uidFrom": "8890277211339706757",
+        "cliMsgId": "1770185005314",
+        "msgType": "group.poll",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "",
+            "thumb": "",
+            "childnumber": 0,
+            "action": "vote",
+            "params": "{\"msg\":{\"vi\":\"%1$s tham gia cuộc bình chọn: %2$s\",\"en\":\"%1$s voted in the poll: %2$s\",\"my\":\"%1$s သည္မဲဇယား: %2$s တြင္မဲေပးခဲ့သည္\"},\"uid\":8890277211339706757,\"isAnonymous\":false,\"question\":\"Hiện trạng giao lưu giải Nữ lúc này :Nữ có trình nhưng vẫn thích nhờ Trai uýnh hộ.Mn góp ý giải đấu tối nay 4/2/2026.\",\"pollId\":572796634,\"groupId\":3671087029779761687,\"dName\":\"Hoàng Sơn\",\"pollVer\":1770185005309}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:03:23"
+    },
+    {
+        "msgId": "7499978189418",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185013602",
+        "msgType": "webchat",
+        "content": "Còn 3h hay mới bc oánh hay s é",
+        "params": null,
+        "time": "2026-02-04 06:03:31"
+    },
+    {
+        "msgId": "7499978634435",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185023604",
+        "msgType": "webchat",
+        "content": "Mọi lần là tầm đó hoặc sớm hơn",
+        "params": null,
+        "time": "2026-02-04 06:03:41"
+    },
+    {
+        "msgId": "7499978861550",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185028737",
+        "msgType": "webchat",
+        "content": "@Jun thì đoá :-f",
+        "params": null,
+        "time": "2026-02-04 06:03:46"
+    },
+    {
+        "msgId": "7499979637450",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185045995",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc Lấy ý kiến để chiều a tạo giải",
+        "params": null,
+        "time": "2026-02-04 06:04:04"
+    },
+    {
+        "msgId": "7499979646151",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185046387",
+        "msgType": "webchat",
+        "content": "Vote này ý kiến chứ k phải vote đánh",
+        "params": null,
+        "time": "2026-02-04 06:04:04"
+    },
+    {
+        "msgId": "7499979919365",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185052561",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184982114,
+                    "gMsgID": 7499976798680,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:04:10"
+    },
+    {
+        "msgId": "7499980005189",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185054488",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770184992978,
+                    "gMsgID": 7499977279699,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:04:12"
+    },
+    {
+        "msgId": "7499980175420",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185058344",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185013602,
+                    "gMsgID": 7499978189418,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:04:16"
+    },
+    {
+        "msgId": "7499980255985",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185060086",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185023604,
+                    "gMsgID": 7499978634435,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:04:18"
+    },
+    {
+        "msgId": "7499981114435",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185079322",
+        "msgType": "webchat",
+        "content": "@Lucy e muốn phang c lucy :-f",
+        "params": null,
+        "time": "2026-02-04 06:04:37"
+    },
+    {
+        "msgId": "7499981121671",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185079453",
+        "msgType": "webchat",
+        "content": "@Jun a rảnh lúc nào thì tạo lúc đó k có h cụ thể đâu",
+        "params": null,
+        "time": "2026-02-04 06:04:37"
+    },
+    {
+        "msgId": "7499981351696",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185084601",
+        "msgType": "webchat",
+        "content": "@Lucy kb chị",
+        "params": null,
+        "time": "2026-02-04 06:04:42"
+    },
+    {
+        "msgId": "7499981439819",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185086567",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc à thế à",
+        "params": null,
+        "time": "2026-02-04 06:04:44"
+    },
+    {
+        "msgId": "7499982163964",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185102855",
+        "msgType": "webchat",
+        "content": "@Lucy Tội hay di chuyển bậy k nghe call :-f",
+        "params": null,
+        "time": "2026-02-04 06:05:00"
+    },
+    {
+        "msgId": "7499982381139",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185107699",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185079453,
+                    "gMsgID": 7499981121671,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:05"
+    },
+    {
+        "msgId": "7499982484674",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185109982",
+        "msgType": "webchat",
+        "content": "Dễ bắt",
+        "params": null,
+        "time": "2026-02-04 06:05:08"
+    },
+    {
+        "msgId": "7499982631608",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185113294",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185079453,
+                    "gMsgID": 7499981121671,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:11"
+    },
+    {
+        "msgId": "7499982790303",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185116890",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185086567,
+                    "gMsgID": 7499981439819,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:14"
+    },
+    {
+        "msgId": "7499983080721",
+        "uidFrom": "3707115071699356567",
+        "cliMsgId": "1770185123224",
+        "msgType": "webchat",
+        "content": "Chi luccy oi",
+        "params": null,
+        "time": "2026-02-04 06:05:21"
+    },
+    {
+        "msgId": "7499983131161",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185124422",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185045995,
+                    "gMsgID": 7499979637450,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:22"
+    },
+    {
+        "msgId": "7499983266273",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185127408",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185079322,
+                    "gMsgID": 7499981114435,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:25"
+    },
+    {
+        "msgId": "7499983338158",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185128949",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc chỗ này nhìu máu nè",
+        "params": null,
+        "time": "2026-02-04 06:05:27"
+    },
+    {
+        "msgId": "7499983605490",
+        "uidFrom": "3707115071699356567",
+        "cliMsgId": "1770185134996",
+        "msgType": "webchat",
+        "content": "Chi tuyen đc setlove cho em chua 🥺🥺",
+        "params": null,
+        "time": "2026-02-04 06:05:33"
+    },
+    {
+        "msgId": "7499983658523",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185136056",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21541,
+            "catId": 10306,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:34"
+    },
+    {
+        "msgId": "7499983945118",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185142552",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185128949,
+                    "gMsgID": 7499983338158,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:05:40"
+    },
+    {
+        "msgId": "7499984288178",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185150106",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc @Lucy ???",
+        "params": null,
+        "time": "2026-02-04 06:05:48"
+    },
+    {
+        "msgId": "7499984899496",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185163775",
+        "msgType": "webchat",
+        "content": "@Nguyễn Hồng đây nè",
+        "params": null,
+        "time": "2026-02-04 06:06:01"
+    },
+    {
+        "msgId": "7499985233984",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185171190",
+        "msgType": "webchat",
+        "content": "E trêu bạn a à đệ :-F :-F",
+        "params": null,
+        "time": "2026-02-04 06:06:09"
+    },
+    {
+        "msgId": "7499985258374",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185171754",
+        "msgType": "webchat",
+        "content": "Còn bé iu @Bé Cam thì để nâng niu /-showlove :p :-* :* :b",
+        "params": null,
+        "time": "2026-02-04 06:06:09"
+    },
+    {
+        "msgId": "7499985448261",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185176026",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185171190,
+                    "gMsgID": 7499985233984,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:06:14"
+    },
+    {
+        "msgId": "7499985859210",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185185073",
+        "msgType": "webchat",
+        "content": "Đâng mute k @Lucy",
+        "params": null,
+        "time": "2026-02-04 06:06:23"
+    },
+    {
+        "msgId": "7499985937929",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185186852",
+        "msgType": "webchat",
+        "content": "@Jun e lấy tí tương tác",
+        "params": null,
+        "time": "2026-02-04 06:06:24"
+    },
+    {
+        "msgId": "7499986100973",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185190522",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 32,
+            "rIcon": ":o",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185185073,
+                    "gMsgID": 7499985859210,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:06:28"
+    },
+    {
+        "msgId": "7499986279692",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185194449",
+        "msgType": "webchat",
+        "content": "@Jun ê",
+        "params": null,
+        "time": "2026-02-04 06:06:32"
+    },
+    {
+        "msgId": "7499986432115",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185197817",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185186852,
+                    "gMsgID": 7499985937929,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 06:06:35"
+    },
+    {
+        "msgId": "7499986521824",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185199831",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185194449,
+                    "gMsgID": 7499986279692,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "337912598",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 06:06:37"
+    },
+    {
+        "msgId": "7499986569488",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185200872",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185150106,
+                    "gMsgID": 7499984288178,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:06:38"
+    },
+    {
+        "msgId": "7499986679391",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185203343",
+        "msgType": "webchat",
+        "content": "@Nguyễn Phúc a test",
+        "params": null,
+        "time": "2026-02-04 06:06:41"
+    },
+    {
+        "msgId": "7499987063363",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185211794",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://f64-zpg-r.zdn.vn/2645202837268360722/bd16d52ae62b6875313a.jpg",
+            "thumb": "https://t-f64-zpg-r.zdn.vn/480/2645202837268360722/bd16d52ae62b6875313a.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"thumb_height\":1042,\"contentId\":\"723edf7866dda6470880f89851b39bee\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":1042,\"height\":1042,\"thumb_width\":1042}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:06:49"
+    },
+    {
+        "msgId": "7499987704093",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185226209",
+        "msgType": "webchat",
+        "content": "@Lucy e trêu mà, e trai sao đánh c guộc :-f /-showlove :p",
+        "params": null,
+        "time": "2026-02-04 06:07:04"
+    },
+    {
+        "msgId": "7499988092284",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185234781",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 33784,
+            "catId": 11130,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:07:12"
+    },
+    {
+        "msgId": "7499988865418",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185252088",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185203343,
+                    "gMsgID": 7499986679391,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:07:30"
+    },
+    {
+        "msgId": "7499990318529",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185284223",
+        "msgType": "webchat",
+        "content": "@Jun đang nghĩ xem hnay e b dám phang thật k ;p",
+        "params": null,
+        "time": "2026-02-04 06:08:02"
+    },
+    {
+        "msgId": "7499991155471",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185302484",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-12.zdn.vn/gr/jpg/008d3c7f55ca9f94c6db/1513285349773011877.jpg",
+            "thumb": "https://photo-stal-12.zdn.vn/gr/jpg/008d3c7f55ca9f94c6db/1513285349773011877.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":2048,\"height\":2002,\"hd\":\"https:\\/\\/photo-stal-12.zdn.vn\\/gr\\/jpg\\/008d3c7f55ca9f94c6db\\/1513285349773011877.jpg\",\"is_group_layout\":0,\"contentId\":\"1000007296\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:08:20"
+    },
+    {
+        "msgId": "7499991526511",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185310905",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "137623907",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185284223,
+                    "gMsgID": 7499990318529,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:08:28"
+    },
+    {
+        "msgId": "7499992162726",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185324878",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 47631,
+            "catId": 12045,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:08:42"
+    },
+    {
+        "msgId": "7499992696750",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185336618",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185284223,
+                    "gMsgID": 7499990318529,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 06:08:54"
+    },
+    {
+        "msgId": "7499993076881",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185344924",
+        "msgType": "webchat",
+        "content": "@Lucy hết cứu",
+        "params": null,
+        "time": "2026-02-04 06:09:02"
+    },
+    {
+        "msgId": "7499993513140",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185354531",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-21.zdn.vn/gr/jpg/f3ef9d1af4af3ef167be/1513285349773011877.jpg",
+            "thumb": "https://photo-stal-21.zdn.vn/gr/jpg/f3ef9d1af4af3ef167be/1513285349773011877.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":2010,\"height\":2048,\"hd\":\"https:\\/\\/photo-stal-21.zdn.vn\\/gr\\/jpg\\/f3ef9d1af4af3ef167be\\/1513285349773011877.jpg\",\"is_group_layout\":0,\"contentId\":\"1000007297\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:09:12"
+    },
+    {
+        "msgId": "7499994153060",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185368648",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21535,
+            "catId": 10306,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:09:26"
+    },
+    {
+        "msgId": "7499995392542",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185394923",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-8.zdn.vn/gr/c2871c884a3f8061d92e/3817202610100162907.jpg",
+            "thumb": "https://photo-stal-8.zdn.vn/gr/c2871c884a3f8061d92e/3817202610100162907.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"contentId\":\"AA70493E-5306-4D5A-821A-BFB7126664BB0\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":320,\"height\":320}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:09:53"
+    },
+    {
+        "msgId": "7499996012395",
+        "uidFrom": "1875159164224493024",
+        "cliMsgId": "1770185409330",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 42837,
+            "catId": 11752,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:10:07"
+    },
+    {
+        "msgId": "7499996789771",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185426358",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rIcon": ":>",
+            "msgSender": "347950025",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185344924,
+                    "gMsgID": 7499993076881,
+                    "msgType": 1
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:10:24"
+    },
+    {
+        "msgId": "7499997170730",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770185434667",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 50630,
+            "catId": 12658,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:10:32"
+    },
+    {
+        "msgId": "7499997698467",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185441100",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-11.zdn.vn/gr/jpg/9195a0e3f4543e0a6745/423051766107870009.jpg",
+            "thumb": "https://photo-stal-11.zdn.vn/gr/jpg/9195a0e3f4543e0a6745/423051766107870009.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":1791,\"height\":2048,\"hd\":\"https:\\/\\/photo-stal-11.zdn.vn\\/gr\\/jpg\\/9195a0e3f4543e0a6745\\/423051766107870009.jpg\",\"is_group_layout\":0,\"contentId\":\"1000007134\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:10:44"
+    },
+    {
+        "msgId": "7499997983182",
+        "uidFrom": "3463073462028629482",
+        "cliMsgId": "1770185452395",
+        "msgType": "webchat",
+        "content": "@Bé Cam chém",
+        "params": null,
+        "time": "2026-02-04 06:10:50"
+    },
+    {
+        "msgId": "7499998712191",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185468210",
+        "msgType": "webchat",
+        "content": "@Đào Văn Hiệp đáng chém",
+        "params": null,
+        "time": "2026-02-04 06:11:06"
+    },
+    {
+        "msgId": "7499998971988",
+        "uidFrom": "7196777803197008133",
+        "cliMsgId": "1770185456467",
+        "msgType": "chat.video.msg",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://video-stal-14.dlmd.me/gr/abbdb6ade41a2e44770b/2595464435406629969",
+            "thumb": "https://photo-stal-4.zdn.vn/gr/738204d457639d3dc472/4283737625174138245.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"duration\":7000,\"is_group_layout\":0,\"video_original_width\":1280,\"video_original_height\":720,\"video_width\":1280,\"video_height\":720,\"video_rotation\":0,\"fileSize\":2381210,\"isHD\":1}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:11:11"
+    },
+    {
+        "msgId": "7499999013186",
+        "uidFrom": "3463073462028629482",
+        "cliMsgId": "1770185474702",
+        "msgType": "webchat",
+        "content": "@Bé Cam chém ai",
+        "params": null,
+        "time": "2026-02-04 06:11:12"
+    },
+    {
+        "msgId": "7499999155654",
+        "uidFrom": "7196777803197008133",
+        "cliMsgId": "1770185477760",
+        "msgType": "webchat",
+        "content": "Sắp r🗿",
+        "params": null,
+        "time": "2026-02-04 06:11:15"
+    },
+    {
+        "msgId": "7499999514452",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185480418",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://f64-zpg-r.zdn.vn/jpg/7429265971813164334/a64f67695168df368679.jpg",
+            "thumb": "https://f64-zpg-r.zdn.vn/jpg/7429265971813164334/a64f67695168df368679.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":2048,\"height\":1881,\"hd\":\"https:\\/\\/f64-zpg-r.zdn.vn\\/jpg\\/7429265971813164334\\/a64f67695168df368679.jpg\",\"is_group_layout\":0,\"contentId\":\"1000007133\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:11:23"
+    },
+    {
+        "msgId": "7499999537005",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185486413",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-14.zdn.vn/gr/jpg/7e7e7ad42e63e43dbd72/423051766107870009.jpg",
+            "thumb": "https://photo-stal-14.zdn.vn/gr/jpg/7e7e7ad42e63e43dbd72/423051766107870009.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":1908,\"height\":858,\"is_group_layout\":0,\"contentId\":\"1000177191\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:11:24"
+    },
+    {
+        "msgId": "7499999915784",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185494783",
+        "msgType": "webchat",
+        "content": "Nào duyệt cho bé cái nhỉ",
+        "params": null,
+        "time": "2026-02-04 06:11:32"
+    },
+    {
+        "msgId": "7500000401402",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185505005",
+        "msgType": "webchat",
+        "content": "@Đào Văn Hiệp ai hỗn láo thì chém người đó",
+        "params": null,
+        "time": "2026-02-04 06:11:43"
+    },
+    {
+        "msgId": "7500000540476",
+        "uidFrom": "7767888926444448808",
+        "cliMsgId": "1770185508043",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 22148,
+            "catId": 10340,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:11:46"
+    },
+    {
+        "msgId": "7500005030053",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770185605934",
+        "msgType": "webchat",
+        "content": "@Bé Cam 17t ngủ chung với nhao đc ùi chị eo đg gì",
+        "params": null,
+        "time": "2026-02-04 06:13:24"
+    },
+    {
+        "msgId": "7500009350908",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185700306",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185486413,
+                    "gMsgID": 7499999537005,
+                    "msgType": 32
+                }
+            ],
+            "source": 0,
+            "msgSender": "218319118",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 06:14:58"
+    },
+    {
+        "msgId": "7500009360781",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185700467",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185486413,
+                    "gMsgID": 7499999537005,
+                    "msgType": 32
+                }
+            ],
+            "source": 0,
+            "msgSender": "218319118",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 06:14:58"
+    },
+    {
+        "msgId": "7500012831564",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185775151",
+        "msgType": "webchat",
+        "content": "@Hiếu Nguyễn duyệt oy e nhé nhưng tên đổi r mà nó chưa rs tên mới",
+        "params": null,
+        "time": "2026-02-04 06:16:13"
+    },
+    {
+        "msgId": "7500013655629",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185792908",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-14.zdn.vn/gr/jpg/729aaa4fe8f822a67be9/1628048890765935238.jpg",
+            "thumb": "https://photo-stal-14.zdn.vn/gr/jpg/729aaa4fe8f822a67be9/1628048890765935238.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":1908,\"height\":858,\"is_group_layout\":0,\"contentId\":\"1000177193\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:16:31"
+    },
+    {
+        "msgId": "7500014015189",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185800730",
+        "msgType": "webchat",
+        "content": "@Lucy hôg có bít à nghe",
+        "params": null,
+        "time": "2026-02-04 06:16:38"
+    },
+    {
+        "msgId": "7500014862878",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185818937",
+        "msgType": "webchat",
+        "content": "@Hiếu Nguyễn Out ra vô lại coi ;p",
+        "params": null,
+        "time": "2026-02-04 06:16:57"
+    },
+    {
+        "msgId": "7500014979664",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185821464",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 24682,
+            "catId": 10539,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:16:59"
+    },
+    {
+        "msgId": "7500015251872",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185827328",
+        "msgType": "webchat",
+        "content": "Out game",
+        "params": null,
+        "time": "2026-02-04 06:17:05"
+    },
+    {
+        "msgId": "7500015919099",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770185841675",
+        "msgType": "webchat",
+        "content": "Lại tưởng out clan lại mất 1 tiếng xin lại",
+        "params": null,
+        "time": "2026-02-04 06:17:19"
+    },
+    {
+        "msgId": "7500016322055",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185850394",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185841675,
+                    "gMsgID": 7500015919099,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "137623907",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 06:17:28"
+    },
+    {
+        "msgId": "7500020394276",
+        "uidFrom": "3092648187605814030",
+        "cliMsgId": "1770185938058",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-14.zdn.vn/gr/jpg/205b552a2f9de5c3bc8c/1070834163094693947.jpg",
+            "thumb": "https://photo-stal-14.zdn.vn/gr/jpg/205b552a2f9de5c3bc8c/1070834163094693947.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":1908,\"height\":858,\"is_group_layout\":0,\"contentId\":\"1000177194\",\"convertible\":\"jxl\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:18:56"
+    },
+    {
+        "msgId": "7500022361848",
+        "uidFrom": "7878930466609197234",
+        "cliMsgId": "1770185980510",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770185938058,
+                    "gMsgID": 7500020394276,
+                    "msgType": 32
+                }
+            ],
+            "source": 0,
+            "msgSender": "218319118",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 06:19:38"
+    },
+    {
+        "msgId": "7500031861863",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770186181858",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "218319118",
+            "rMsg": [
+                {
+                    "cMsgID": 1770185938058,
+                    "gMsgID": 7500020394276,
+                    "msgType": 32
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 06:23:00"
+    },
+    {
+        "msgId": "7500041124050",
+        "uidFrom": "7206771808190541286",
+        "cliMsgId": "1770186376336",
+        "msgType": "group.poll",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "",
+            "thumb": "",
+            "childnumber": 0,
+            "action": "vote",
+            "params": "{\"msg\":{\"vi\":\"%1$s tham gia cuộc bình chọn: %2$s\",\"en\":\"%1$s voted in the poll: %2$s\",\"my\":\"%1$s သည္မဲဇယား: %2$s တြင္မဲေပးခဲ့သည္\"},\"uid\":7206771808190541286,\"isAnonymous\":false,\"question\":\"Hiện trạng giao lưu giải Nữ lúc này :Nữ có trình nhưng vẫn thích nhờ Trai uýnh hộ.Mn góp ý giải đấu tối nay 4/2/2026.\",\"pollId\":572796634,\"groupId\":3671087029779761687,\"dName\":\"Phúc An Khang\",\"pollVer\":1770186376336}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:26:14"
+    },
+    {
+        "msgId": "7500050741099",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770186575285",
+        "msgType": "webchat",
+        "content": "Mình champ aya alice sp siêu cứng tìm bạn nữ champ telnat chơi cùng",
+        "params": null,
+        "time": "2026-02-04 06:29:33"
+    },
+    {
+        "msgId": "7500050845859",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770186577451",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://f62-zpg-r.zdn.vn/8856881549310805291/fc90ab4253eddcb385fc.jpg",
+            "thumb": "https://f62-zpg-r.zdn.vn/8856881549310805291/fc90ab4253eddcb385fc.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"ADF75DCF-E3E5-4C12-AF00-3353228897D30\\\",\\\"send_method\\\":0}\",\"contentId\":\"ADF75DCF-E3E5-4C12-AF00-3353228897D30\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:29:35"
+    },
+    {
+        "msgId": "7500054042766",
+        "uidFrom": "640048573549650692",
+        "cliMsgId": "1770186642389",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 0,
+            "rMsg": [
+                {
+                    "cMsgID": 1770186575285,
+                    "gMsgID": 7500050741099,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "126396082",
+            "rIcon": ":>"
+        },
+        "params": null,
+        "time": "2026-02-04 06:30:40"
+    },
+    {
+        "msgId": "7500055507284",
+        "uidFrom": "2265730735794889876",
+        "cliMsgId": "1770186671660",
+        "msgType": "webchat",
+        "content": "@Hồlô ôy",
+        "params": null,
+        "time": "2026-02-04 06:31:09"
+    },
+    {
+        "msgId": "7500056325203",
+        "uidFrom": "3707115071699356567",
+        "cliMsgId": "1770186688319",
+        "msgType": "group.poll",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "",
+            "thumb": "",
+            "childnumber": 0,
+            "action": "vote",
+            "params": "{\"msg\":{\"vi\":\"%1$s tham gia cuộc bình chọn: %2$s\",\"en\":\"%1$s voted in the poll: %2$s\",\"my\":\"%1$s သည္မဲဇယား: %2$s တြင္မဲေပးခဲ့သည္\"},\"uid\":3707115071699356567,\"isAnonymous\":false,\"question\":\"Hiện trạng giao lưu giải Nữ lúc này :Nữ có trình nhưng vẫn thích nhờ Trai uýnh hộ.Mn góp ý giải đấu tối nay 4/2/2026.\",\"pollId\":572796634,\"groupId\":3671087029779761687,\"dName\":\"Nguyễn Hồng\",\"pollVer\":1770186688330}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:31:26"
+    },
+    {
+        "msgId": "7500058037075",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770186722321",
+        "msgType": "webchat",
+        "content": "@Trâm Nè ủa em ruột",
+        "params": null,
+        "time": "2026-02-04 06:32:00"
+    },
+    {
+        "msgId": "7500060268009",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770186766789",
+        "msgType": "webchat",
+        "content": "@Kem ủa chị ruột",
+        "params": null,
+        "time": "2026-02-04 06:32:44"
+    },
+    {
+        "msgId": "7500060683156",
+        "uidFrom": "2265730735794889876",
+        "cliMsgId": "1770186775199",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rMsg": [
+                {
+                    "cMsgID": 1770186766789,
+                    "gMsgID": 7500060268009,
+                    "msgType": 1
+                }
+            ],
+            "source": 0,
+            "msgSender": "126396082",
+            "rIcon": "/-heart"
+        },
+        "params": null,
+        "time": "2026-02-04 06:32:53"
+    },
+    {
+        "msgId": "7500061135775",
+        "uidFrom": "2265730735794889876",
+        "cliMsgId": "1770186784135",
+        "msgType": "webchat",
+        "content": "Đi lạc đâu đây z",
+        "params": null,
+        "time": "2026-02-04 06:33:02"
+    },
+    {
+        "msgId": "7500061921644",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770186799719",
+        "msgType": "webchat",
+        "content": "em mới zo mấy ngày ò",
+        "params": null,
+        "time": "2026-02-04 06:33:17"
+    },
+    {
+        "msgId": "7500062029721",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770186801840",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://f62-zpg-r.zdn.vn/8856881549310805291/fc90ab4253eddcb385fc.jpg",
+            "thumb": "https://f62-zpg-r.zdn.vn/8856881549310805291/fc90ab4253eddcb385fc.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"ADF75DCF-E3E5-4C12-AF00-3353228897D30\\\",\\\"send_method\\\":0}\",\"contentId\":\"ADF75DCF-E3E5-4C12-AF00-3353228897D30\",\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:33:19"
+    },
+    {
+        "msgId": "7500062912940",
+        "uidFrom": "2265730735794889876",
+        "cliMsgId": "1770186819431",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 1111,
+            "catId": 50,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 06:33:37"
+    },
+    {
+        "msgId": "7500075993331",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770187072621",
+        "msgType": "webchat",
+        "content": "Nào chị ruột kéo rank em với nha",
+        "params": null,
+        "time": "2026-02-04 06:37:50"
+    },
+    {
+        "msgId": "7500076518098",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770187082748",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://f38-zfcloud.zdn.vn/656c10984a22eb7cb233/4914766897832542634?createby=HaHuyHoang_Bot.webp",
+            "thumb": "https://f38-zfcloud.zdn.vn/656c10984a22eb7cb233/4914766897832542634?createby=HaHuyHoang_Bot.webp",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1763714059623\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/656c10984a22eb7cb233\\/4914766897832542634?createby=HaHuyHoang_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1763714059623\",\"pStickerType\":1,\"is_original\":0}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:38:00"
+    },
+    {
+        "msgId": "7500087824404",
+        "uidFrom": "640048573549650692",
+        "cliMsgId": "1770187296061",
+        "msgType": "webchat",
+        "content": "@Hồlô ủa còn nho e hỏ",
+        "params": null,
+        "time": "2026-02-04 06:41:36"
+    },
+    {
+        "msgId": "7500091632757",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770187366999",
+        "msgType": "webchat",
+        "content": "Em ruột a mà quên kỉu gì",
+        "params": null,
+        "time": "2026-02-04 06:42:47"
+    },
+    {
+        "msgId": "7500119503343",
+        "uidFrom": "2265730735794889876",
+        "cliMsgId": "1770187873435",
+        "msgType": "webchat",
+        "content": "@Hồlô c còn vật lộn ở rank TA nè",
+        "params": null,
+        "time": "2026-02-04 06:51:13"
+    },
+    {
+        "msgId": "7500132188591",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770188097713",
+        "msgType": "chat.video.msg",
+        "content": {
+            "title": "Nghe nó thuyết phục gúm🤣",
+            "description": "",
+            "href": "https://video-stal-3.dlmd.me/gr/67c54e0f8fb845e61ca9/4031359103449261623",
+            "thumb": "https://photo-stal-23.zdn.vn/gr/83058ad24b65813bd874/4031359103449261623.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"duration\":14000,\"is_group_layout\":0,\"video_original_width\":576,\"video_original_height\":1024,\"video_width\":576,\"video_height\":1024,\"video_rotation\":0,\"fileSize\":932612,\"isHD\":1}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 06:54:58"
+    },
+    {
+        "msgId": "7500143837693",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770188301236",
+        "msgType": "chat.reaction",
+        "content": {
+            "rMsg": [
+                {
+                    "gMsgID": 7500132188591,
+                    "cMsgID": 1770188097713,
+                    "msgType": 18
+                }
+            ],
+            "rIcon": ":>",
+            "rType": 0,
+            "source": 6
+        },
+        "params": null,
+        "time": "2026-02-04 06:58:22"
+    },
+    {
+        "msgId": "7500168752098",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770188727621",
+        "msgType": "webchat",
+        "content": "Tuyển setlove",
+        "params": null,
+        "time": "2026-02-04 07:05:28"
+    },
+    {
+        "msgId": "7500172045469",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770188783347",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh @Nguyễn Hồng",
+        "params": null,
+        "time": "2026-02-04 07:06:23"
+    },
+    {
+        "msgId": "7500172654166",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770188793680",
+        "msgType": "webchat",
+        "content": "Cùng tuyển nè",
+        "params": null,
+        "time": "2026-02-04 07:06:33"
+    },
+    {
+        "msgId": "7500178342127",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770188889404",
+        "msgType": "webchat",
+        "content": "Bot",
+        "params": null,
+        "time": "2026-02-04 07:08:09"
+    },
+    {
+        "msgId": "7500182955646",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770188966632",
+        "msgType": "webchat",
+        "content": "@Lucy phận e bán vé số sao với đc tới tiểu thư",
+        "params": null,
+        "time": "2026-02-04 07:09:27"
+    },
+    {
+        "msgId": "7500183193093",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770188970948",
+        "msgType": "webchat",
+        "content": ":$",
+        "params": null,
+        "time": "2026-02-04 07:09:31"
+    },
+    {
+        "msgId": "7500185691606",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770189012955",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh thế thì chịu cứ đòi tuyển setl mà gthieu cứ dãy :-< :-<",
+        "params": null,
+        "time": "2026-02-04 07:10:13"
+    },
+    {
+        "msgId": "7500188668151",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189062801",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh thế giờ tuyển cô nào bán vé số để set vs em đk",
+        "params": null,
+        "time": "2026-02-04 07:11:03"
+    },
+    {
+        "msgId": "7500188970662",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189067935",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 50627,
+            "catId": 12658,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:11:08"
+    },
+    {
+        "msgId": "7500198539599",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189227518",
+        "msgType": "webchat",
+        "content": "@Lucy e ko dãy sợ bị bỏ thùng xốp hui",
+        "params": null,
+        "time": "2026-02-04 07:13:48"
+    },
+    {
+        "msgId": "7500198975867",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189235167",
+        "msgType": "webchat",
+        "content": "@Linh Chi dạ hog bán táo ạ",
+        "params": null,
+        "time": "2026-02-04 07:13:55"
+    },
+    {
+        "msgId": "7500200193197",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189255524",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh em muốn bán táo tàu hay táo mỹ",
+        "params": null,
+        "time": "2026-02-04 07:14:15"
+    },
+    {
+        "msgId": "7500200528855",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189261187",
+        "msgType": "webchat",
+        "content": "Hay táo việt nam",
+        "params": null,
+        "time": "2026-02-04 07:14:21"
+    },
+    {
+        "msgId": "7500200782512",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189265438",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 50627,
+            "catId": 12658,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:14:25"
+    },
+    {
+        "msgId": "7500200917056",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189267405",
+        "msgType": "webchat",
+        "content": "@Linh Chi táo mỹ ak",
+        "params": null,
+        "time": "2026-02-04 07:14:27"
+    },
+    {
+        "msgId": "7500201539426",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189277839",
+        "msgType": "webchat",
+        "content": "Sáng e bán táo chiều e ghi đề tối e bán oto",
+        "params": null,
+        "time": "2026-02-04 07:14:38"
+    },
+    {
+        "msgId": "7500201677596",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189280199",
+        "msgType": "webchat",
+        "content": ":$",
+        "params": null,
+        "time": "2026-02-04 07:14:40"
+    },
+    {
+        "msgId": "7500202237346",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189289767",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh mấy ng bán táo mỹ lại k chịu set vs ng bán vé số",
+        "params": null,
+        "time": "2026-02-04 07:14:49"
+    },
+    {
+        "msgId": "7500202364351",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189291932",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 98937,
+            "catId": 61900,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:14:52"
+    },
+    {
+        "msgId": "7500210206756",
+        "uidFrom": "7957034663282035080",
+        "cliMsgId": "1770189422206",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 47630,
+            "catId": 12045,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:17:02"
+    },
+    {
+        "msgId": "7500214568332",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189494157",
+        "msgType": "webchat",
+        "content": "@Linh Chi các chị lại cá chê e buồn lắm",
+        "params": null,
+        "time": "2026-02-04 07:18:14"
+    },
+    {
+        "msgId": "7500215768655",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189514104",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh rõ em kén cơ mà",
+        "params": null,
+        "time": "2026-02-04 07:18:34"
+    },
+    {
+        "msgId": "7500215907660",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189516397",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 25778,
+            "catId": 10615,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:18:36"
+    },
+    {
+        "msgId": "7500218004980",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189551016",
+        "msgType": "webchat",
+        "content": "@Linh Chi k phải e kén đâu mà e sợ mấy chị phi dao lắm",
+        "params": null,
+        "time": "2026-02-04 07:19:11"
+    },
+    {
+        "msgId": "7500218169118",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189553755",
+        "msgType": "webchat",
+        "content": ":$",
+        "params": null,
+        "time": "2026-02-04 07:19:13"
+    },
+    {
+        "msgId": "7500221148154",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189603025",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh c k phi dao. Rút đôi cao gót quăng lun cho lẹ em ạ",
+        "params": null,
+        "time": "2026-02-04 07:20:03"
+    },
+    {
+        "msgId": "7500222730014",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189627714",
+        "msgType": "webchat",
+        "content": "@Linh Chi khác gì chị 2 e đâu",
+        "params": null,
+        "time": "2026-02-04 07:20:29"
+    },
+    {
+        "msgId": "7500223082151",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189634710",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45347,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:20:34"
+    },
+    {
+        "msgId": "7500223855720",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189647487",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh bên cạnh có gì quăng hết",
+        "params": null,
+        "time": "2026-02-04 07:20:47"
+    },
+    {
+        "msgId": "7500223963159",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189649290",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 25778,
+            "catId": 10615,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:20:49"
+    },
+    {
+        "msgId": "7500225191591",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189669475",
+        "msgType": "webchat",
+        "content": "@Linh Chi chị 2 e về đấm chồng lên toàn bị trả về nơi sản xuất",
+        "params": null,
+        "time": "2026-02-04 07:21:09"
+    },
+    {
+        "msgId": "7500225304732",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189671254",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 33784,
+            "catId": 11130,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:21:11"
+    },
+    {
+        "msgId": "7500230396345",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189754932",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh bởi c đâu có lấy ck",
+        "params": null,
+        "time": "2026-02-04 07:22:35"
+    },
+    {
+        "msgId": "7500230543104",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189757374",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 45356,
+            "catId": 11901,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:22:37"
+    },
+    {
+        "msgId": "7500232537898",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189790032",
+        "msgType": "webchat",
+        "content": "@Linh Chi zề đây e nuôi",
+        "params": null,
+        "time": "2026-02-04 07:23:10"
+    },
+    {
+        "msgId": "7500232970557",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189797058",
+        "msgType": "webchat",
+        "content": "E nuôi rồi bán",
+        "params": null,
+        "time": "2026-02-04 07:23:17"
+    },
+    {
+        "msgId": "7500233070350",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770189798743",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 33784,
+            "catId": 11130,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:23:18"
+    },
+    {
+        "msgId": "7500233849743",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189811521",
+        "msgType": "webchat",
+        "content": "@Bồ Công Anh thôi bán vé số k nuôi nổi c đâu",
+        "params": null,
+        "time": "2026-02-04 07:23:31"
+    },
+    {
+        "msgId": "7500234088160",
+        "uidFrom": "2844683227772753823",
+        "cliMsgId": "1770189815409",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 25778,
+            "catId": 10615,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:23:35"
+    },
+    {
+        "msgId": "7500254292481",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770190144939",
+        "msgType": "webchat",
+        "content": "@Kem e cũng vậy ☺️",
+        "params": null,
+        "time": "2026-02-04 07:29:05"
+    },
+    {
+        "msgId": "7500259515988",
+        "uidFrom": "891561443929299386",
+        "cliMsgId": "1770190229159",
+        "msgType": "webchat",
+        "content": "Ai rank k",
+        "params": null,
+        "time": "2026-02-04 07:30:29"
+    },
+    {
+        "msgId": "7500290666062",
+        "uidFrom": "1875159164224493024",
+        "cliMsgId": "1770190728105",
+        "msgType": "webchat",
+        "content": "@Lucy xời c tôi nay cụng ghép đôi dữ",
+        "params": null,
+        "time": "2026-02-04 07:38:48"
+    },
+    {
+        "msgId": "7500291256119",
+        "uidFrom": "1875159164224493024",
+        "cliMsgId": "1770190737990",
+        "msgType": "webchat",
+        "content": "E cụng chưa có c ghép cho e đi",
+        "params": null,
+        "time": "2026-02-04 07:38:58"
+    },
+    {
+        "msgId": "7500321285584",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770191217256",
+        "msgType": "webchat",
+        "content": "@Linh Chi e nhiều nghề mà",
+        "params": null,
+        "time": "2026-02-04 07:46:57"
+    },
+    {
+        "msgId": "7500321491403",
+        "uidFrom": "4103138564184933140",
+        "cliMsgId": "1770191220544",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 33784,
+            "catId": 11130,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 07:47:00"
+    },
+    {
+        "msgId": "7500416728884",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770192671154",
+        "msgType": "chat.photo",
+        "content": {
+            "title": "",
+            "description": "",
+            "href": "https://photo-stal-6.zdn.vn/gr/jpg/5f00513545848fdad695/4488868130396716752.jpg",
+            "thumb": "https://photo-stal-6.zdn.vn/gr/jpg/5f00513545848fdad695/4488868130396716752.jpg",
+            "childnumber": 0,
+            "action": "",
+            "params": "{\"height\":2560,\"thumb_width\":412,\"thumb_height\":891,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/photo-stal-6.zdn.vn\\/gr\\/jpg\\/5f00513545848fdad695\\/4488868130396716752.jpg\",\"width\":1184,\"convertible\":\"jxl\"}",
+            "type": ""
+        },
+        "params": null,
+        "time": "2026-02-04 08:11:11"
+    },
+    {
+        "msgId": "7500426780783",
+        "uidFrom": "8924446464230845247",
+        "cliMsgId": "1770192820328",
+        "msgType": "webchat",
+        "content": "@Puu về nhà ăn ngủ nghỉ hôm sau đến sớm là ok e :>",
+        "params": null,
+        "time": "2026-02-04 08:13:40"
+    },
+    {
+        "msgId": "7500428366962",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770192843645",
+        "msgType": "webchat",
+        "content": "@Út chưa chụp ảnh c ơi",
+        "params": null,
+        "time": "2026-02-04 08:14:03"
+    },
+    {
+        "msgId": "7500428596606",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770192847142",
+        "msgType": "webchat",
+        "content": "Cuối năm còn đen",
+        "params": null,
+        "time": "2026-02-04 08:14:07"
+    },
+    {
+        "msgId": "7500429032127",
+        "uidFrom": "8709966699835249157",
+        "cliMsgId": "1770192853526",
+        "msgType": "webchat",
+        "content": "Đi làm lại giấy tờ",
+        "params": null,
+        "time": "2026-02-04 08:14:13"
+    },
+    {
+        "msgId": "7500433745109",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770192923595",
+        "msgType": "webchat",
+        "content": "Bot",
+        "params": null,
+        "time": "2026-02-04 08:15:23"
+    },
+    {
+        "msgId": "7500458476855",
+        "uidFrom": "5182415640462386702",
+        "cliMsgId": "1770193289133",
+        "msgType": "webchat",
+        "content": "@Yến Nhi thôi ai đấy gửi ảnh nhẫn nhủng lên cơ c còn đang gato đây nè",
+        "params": null,
+        "time": "2026-02-04 08:21:29"
+    },
+    {
+        "msgId": "7500464455564",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770193376930",
+        "msgType": "webchat",
+        "content": "pass majmaj123@",
+        "params": null,
+        "time": "2026-02-04 08:22:57"
+    },
+    {
+        "msgId": "7500486279871",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770193697337",
+        "msgType": "webchat",
+        "content": "Qtv list",
+        "params": null,
+        "time": "2026-02-04 08:28:17"
+    },
+    {
+        "msgId": "7500486666207",
+        "uidFrom": "4489034907448522921",
+        "cliMsgId": "1770193702933",
+        "msgType": "chat.sticker",
+        "content": {
+            "id": 21537,
+            "catId": 10306,
+            "type": 3,
+            "extInfo": null
+        },
+        "params": null,
+        "time": "2026-02-04 08:28:23"
+    },
+    {
+        "msgId": "7500552682789",
+        "uidFrom": "1589626794817573866",
+        "cliMsgId": "1770194665614",
+        "msgType": "chat.reaction",
+        "content": {
+            "rType": 5,
+            "rIcon": "/-heart",
+            "msgSender": "317525797",
+            "rMsg": [
+                {
+                    "cMsgID": 1770194451209,
+                    "gMsgID": 7500537911317,
+                    "msgType": 32
+                }
+            ],
+            "source": 0
+        },
+        "params": null,
+        "time": "2026-02-04 08:44:25"
+    },
+    {
+        "msgId": "7500842360488",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770199068446",
+        "msgType": "webchat",
+        "content": "Rep tin nhắn sau roài mới tin nhắn trc :-f",
+        "params": null,
+        "time": "2026-02-04 16:57:48"
+    },
+    {
+        "msgId": "7500842383592",
+        "uidFrom": "7592255640768577208",
+        "cliMsgId": "1770199068797",
+        "msgType": "webchat",
+        "content": "@Yumi bot",
+        "params": null,
+        "time": "2026-02-04 16:57:48"
+    },
+    {
+        "msgId": "7500842977994",
+        "uidFrom": "7592255640768577208",
+        "cliMsgId": "1770199078203",
+        "msgType": "webchat",
+        "content": "@Yumi ok",
+        "params": null,
+        "time": "2026-02-04 16:57:58"
+    },
+    {
+        "msgId": "7500843003116",
+        "uidFrom": "3649686025433210435",
+        "cliMsgId": "1770199078581",
+        "msgType": "webchat",
+        "content": "Nịt",
+        "params": null,
+        "time": "2026-02-04 16:57:58"
+    },
+    {
+        "msgId": "7500843314273",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770199083362",
+        "msgType": "webchat",
+        "content": "Bot set style layloi",
+        "params": null,
+        "time": "2026-02-04 16:58:03"
+    },
+    {
+        "msgId": "7500843619612",
+        "uidFrom": "3299675674241805615",
+        "cliMsgId": "1770199088192",
+        "msgType": "webchat",
+        "content": "Bot clear",
+        "params": null,
+        "time": "2026-02-04 16:58:08"
+    },
+    {
+        "msgId": "7500844197477",
+        "uidFrom": "7592255640768577208",
+        "cliMsgId": "1770199097507",
+        "msgType": "webchat",
+        "content": "t đang run bot ông đó",
+        "params": null,
+        "time": "2026-02-04 16:58:17"
+    }
+]

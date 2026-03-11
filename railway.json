@@ -1,0 +1,8 @@
+{
+  "build": {
+    "dockerfilePath": "Dockerfile",
+    "cacheDirectories": [
+      "/root/.cache/pip"
+    ]
+  }
+}
